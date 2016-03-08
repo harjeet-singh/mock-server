@@ -10,10 +10,23 @@ if ($error) {
     echo "<h2>Constructor error</h2><pre>" . $error . "</pre>";
 }
 
-echo '<pre>';
 
 
-$result = $client->call("getAllProfile", array("source_system" => "CIS", "source_system_id" => "123456"));
+$request = array (
+  'customerAccessKey' => array
+  (
+    'sourceSystemCustomerId' => '67497813',
+    'sourceSystem' => 'DGT',
+  ),
+  'csrEmail' => 'testcsr-super-03-circ@nytimes.com',
+  'csrPassword' => 'password123',
+);
+
+echo "<h2>Request</h2><pre>";
+print_r($request);
+echo "</pre>";
+
+$result = $client->call("getAllProfile", array(json_encode($request)));
 
 
 if ($client->fault) {
@@ -28,7 +41,7 @@ else {
     }
     else {
         echo "<h2>Result</h2><pre>";
-        print_r($result);
+        print_r(json_decode($result,true));
         echo "</pre>";
     }
 }

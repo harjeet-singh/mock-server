@@ -12,11 +12,14 @@ class cil_registry extends registry{
 
             $this->serviceClass->registerFunction(
                 'getAllProfile',
-                array(
-                    'source_system'=>'xsd:string', 
-                    'source_system_id'=>'xsd:string'),
-                array(
-                            'return'=>'SOAP-ENC:Array'
+                    //request type
+                    array(
+                        'request' => 'xsd:string',
+                    ),
+                    //resposne type
+                    array(
+                            //'return'=>'SOAP-ENC:Array'
+                            'return' => 'xsd:string'
                     )
                 );
 

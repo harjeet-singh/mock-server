@@ -21,8 +21,8 @@ $service->serve();
 
 
 
-function writelog($message){
-        $file = fopen("api.log","a");
+function writeLog($message){
+        $file = fopen("error.log","a");
         $date = new DateTime('NOW');
         $date = $date->format("Y M d D h:g:i a");
 

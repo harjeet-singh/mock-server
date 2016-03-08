@@ -23,6 +23,37 @@ class registry {
 	public function register() {
 		$this->registerFunction();
 	}
+        
+        protected function registerTypes()
+	{
+           $this->serviceClass->registerType(
+		    'paramter_list',
+			'complexType',
+		   	 'struct',
+		   	 '',
+		  	  'SOAP-ENC:Array',
+			array(),
+		    array(
+		        array('ref'=>'SOAP-ENC:arrayType', 'wsdl:arrayType'=>'xsd:string[]')
+		    ),
+			'xsd:string'
+		);
+           
+           $this->serviceClass->registerType(
+		   	 'cil_request_parameters',
+		   	 'complexType',
+		   	 'struct',
+		   	 'all',
+		  	  '',
+			array(
+				"customerAccessKey" => array('name'=>"customerAccessKey", 'type' => 'tns:paramter_list'),
+				'csrEmail' => array('name' => 'csrEmail', 'type'=>'xsd:string'),
+                                'csrPassword' => array('name' => 'csrPassword', 'type'=>'xsd:string'),
+                            )
+
+			);
+		
+        }
 	
 	/**
 	 * This mehtod registers all the functions on the service class
