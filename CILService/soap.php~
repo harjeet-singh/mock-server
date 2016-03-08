@@ -1,0 +1,16 @@
+<?php
+
+require_once('CILServiceImpl.php');
+
+$webservice_path = 'service/core/SoapService2.php';
+$webservice_class = 'SoapService';
+$webservice_impl_class = 'CILServiceImpl';
+
+$registry_path = 'registry.php';
+$registry_class = 'registry';
+
+$location = 'rest.php';
+
+require_once ('service/core/webservice.php');
+
+?>
