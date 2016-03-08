@@ -1,6 +1,0 @@
-<?php
-
-require_once('service/core/RestService.php');
-class CILRestService extends RestService{
-	
-}
