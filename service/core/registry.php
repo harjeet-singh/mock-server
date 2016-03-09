@@ -62,10 +62,10 @@ class registry {
 	protected function registerFunction() {
 	// START OF REGISTER FUNCTIONS
 
-	$GLOBALS['log']->info('Begin: registry->registerFunction');
+	writeLog('Begin: registry->registerFunction');
 
 		
-	$GLOBALS['log']->info('END: registry->registerFunction');
+	writeLog('END: registry->registerFunction');
 	        
 		// END OF REGISTER FUNCTIONS
 	} // fn	

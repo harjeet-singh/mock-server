@@ -10,14 +10,15 @@
 class WebServiceImpl{
 
 	public static $helperObject = null;
-        public static $base = './testdata/cil-rest/';
+        public static $base = './resources/testdata/';
+
 
         public static function getResponse($url, $input=null)
         {
             // validate input and log the user in
             //do find response:
             if (!isset($url) ) {
-                    throw new Exception(404, "Wrong Request: no url or data on POST");
+                    throw new Exception("404, Wrong Request: no url or data on POST");
             }
 
             $filePath=$url;
@@ -30,7 +31,7 @@ class WebServiceImpl{
             $all = self::$base.(!empty($md5) ? (rtrim($filePath, '/').'/').$md5 :(rtrim($filePath, '/').'/get'));
 
             writeLog('RUNNING LOOKING FOR path=='.$all,0);
-
+            chdir(dirname(__FILE__).'/../../');
             if(file_exists($all))
             {
                     writeLog('RUNNING REQUEST FOUND!!! =='.$all,0);
@@ -38,7 +39,7 @@ class WebServiceImpl{
             }
             else{
                     writeLog('RUNNING REQUEST FOUND =='.$all,0);
-                            throw new Exception(404, "No File Found: ".$all);
+                            throw new Exception("404, No File Found: ".$all);
             }
         }
 

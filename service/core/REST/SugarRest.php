@@ -62,7 +62,7 @@
 
 	function generateFaultResponse($errorObject){
 		//ob_clean();
-		$GLOBALS['log']->info('In SugarRest->fault. Setting fault object on response');
+		writeLog('In SugarRest->fault. Setting fault object on response');
 		header('HTTP/1.1 500 Internal Server Error');
 		header('Content-Type: text/html; charset="ISO-8859-1"');
 		echo '<br>500 Internal Server Error <br>';
