@@ -3,8 +3,8 @@ error_reporting(E_ALL);
 ini_set('display_errors',1);
 
 require_once "service/nusoap/nusoap.php";
-//$client = new nusoap_client("http://cil-soap.localhost");
-$client = new nusoap_client("http://localhost/MockServer/src/cil-soap");
+$client = new nusoap_client("http://cil-soap.localhost/soap.php");
+//$client = new nusoap_client("http://localhost/MockServer/src/cil-soap");
 
 $error = $client->getError();
 if ($error) {

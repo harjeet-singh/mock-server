@@ -1,11 +1,11 @@
 <?php
 error_reporting(E_ALL);
-ini_set('display_errors',1);
+//ini_set('display_errors',1);
 
 require_once('CILService.php');
 require_once('cil_registry.php');
-require_once('../service/core/SoapService2.php');
-require_once('../Utils/custom_functions.php');  
+require_once('../../service/core/SoapService2.php');
+require_once('../utils/custom_functions.php');  
 
 $service = new SoapService2('http://localhost/MockServer/CILService/soap.php');
 $service->registerClass("cil_registry");
