@@ -1,39 +1,764 @@
-[2016 Mar 08 Tue 11:11:32 pm] Begin: NusoapSoap->__construct
-[2016 Mar 08 Tue 11:11:32 pm] End: NusoapSoap->__construct
-[2016 Mar 08 Tue 11:11:32 pm] Begin: NusoapSoap->registerClass
-[2016 Mar 08 Tue 11:11:32 pm] End: NusoapSoap->registerClass
-[2016 Mar 08 Tue 11:11:32 pm] Begin: SugarSoapService2->register
-[2016 Mar 08 Tue 11:11:32 pm] Begin: registry->registerFunction
-[2016 Mar 08 Tue 11:11:32 pm] END: registry->registerFunction
-[2016 Mar 08 Tue 11:11:32 pm] End: SugarSoapService2->register
-[2016 Mar 08 Tue 11:11:32 pm] Begin: NusoapSoap->registerImplClass
-[2016 Mar 08 Tue 11:11:32 pm] End: NusoapSoap->registerImplClass
-[2016 Mar 08 Tue 11:11:32 pm] Begin: NusoapSoap->serve
-[2016 Mar 08 Tue 11:11:32 pm] RUNNING LOOKING FOR path==../../../resource/testdata/cil-rest/getAllProfile/24cd18763d956d717cb3cd6013406674
-[2016 Mar 08 Tue 11:11:32 pm] RUNNING REQUEST FOUND ==../../../resource/testdata/cil-rest/getAllProfile/24cd18763d956d717cb3cd6013406674
-[2016 Mar 08 Tue 11:11:33 pm] Begin: NusoapSoap->__construct
-[2016 Mar 08 Tue 11:11:33 pm] End: NusoapSoap->__construct
-[2016 Mar 08 Tue 11:11:33 pm] Begin: NusoapSoap->registerClass
-[2016 Mar 08 Tue 11:11:33 pm] End: NusoapSoap->registerClass
-[2016 Mar 08 Tue 11:11:33 pm] Begin: SugarSoapService2->register
-[2016 Mar 08 Tue 11:11:33 pm] Begin: registry->registerFunction
-[2016 Mar 08 Tue 11:11:33 pm] END: registry->registerFunction
-[2016 Mar 08 Tue 11:11:33 pm] End: SugarSoapService2->register
-[2016 Mar 08 Tue 11:11:33 pm] Begin: NusoapSoap->registerImplClass
-[2016 Mar 08 Tue 11:11:33 pm] End: NusoapSoap->registerImplClass
-[2016 Mar 08 Tue 11:11:33 pm] Begin: NusoapSoap->serve
-[2016 Mar 08 Tue 11:11:33 pm] RUNNING LOOKING FOR path==../../../resources/testdata/cil-rest/getAllProfile/24cd18763d956d717cb3cd6013406674
-[2016 Mar 08 Tue 11:11:33 pm] RUNNING REQUEST FOUND ==../../../resources/testdata/cil-rest/getAllProfile/24cd18763d956d717cb3cd6013406674
-[2016 Mar 08 Tue 11:11:36 pm] Begin: NusoapSoap->__construct
-[2016 Mar 08 Tue 11:11:36 pm] End: NusoapSoap->__construct
-[2016 Mar 08 Tue 11:11:36 pm] Begin: NusoapSoap->registerClass
-[2016 Mar 08 Tue 11:11:36 pm] End: NusoapSoap->registerClass
-[2016 Mar 08 Tue 11:11:36 pm] Begin: SugarSoapService2->register
-[2016 Mar 08 Tue 11:11:36 pm] Begin: registry->registerFunction
-[2016 Mar 08 Tue 11:11:36 pm] END: registry->registerFunction
-[2016 Mar 08 Tue 11:11:36 pm] End: SugarSoapService2->register
-[2016 Mar 08 Tue 11:11:36 pm] Begin: NusoapSoap->registerImplClass
-[2016 Mar 08 Tue 11:11:36 pm] End: NusoapSoap->registerImplClass
-[2016 Mar 08 Tue 11:11:36 pm] Begin: NusoapSoap->serve
-[2016 Mar 08 Tue 11:11:36 pm] RUNNING LOOKING FOR path==../../../resources/testdata/cil-rest/getAllProfile/24cd18763d956d717cb3cd6013406674
-[2016 Mar 08 Tue 11:11:36 pm] RUNNING REQUEST FOUND ==../../../resources/testdata/cil-rest/getAllProfile/24cd18763d956d717cb3cd6013406674
+[2016 Apr 05 Tue 02:2:52 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 02:2:52 pm] getAllProfile $payload 
+[2016 Apr 05 Tue 02:2:52 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 02:2:52 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 02:2:54 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 02:2:54 pm] getAllProfile $payload 
+[2016 Apr 05 Tue 02:2:54 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 02:2:54 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 02:2:54 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 02:2:54 pm] getAllProfile $payload 
+[2016 Apr 05 Tue 02:2:54 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 02:2:54 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 02:2:54 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 02:2:54 pm] getAllProfile $payload 
+[2016 Apr 05 Tue 02:2:54 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 02:2:54 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 02:2:55 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 02:2:55 pm] getAllProfile $payload 
+[2016 Apr 05 Tue 02:2:55 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 02:2:55 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 03:3:00 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 03:3:00 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+
+[2016 Apr 05 Tue 03:3:00 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 03:3:00 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 03:3:00 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 03:3:00 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+
+[2016 Apr 05 Tue 03:3:00 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 03:3:00 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 03:3:00 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 03:3:00 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+
+[2016 Apr 05 Tue 03:3:00 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 03:3:00 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 03:3:01 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 03:3:01 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+
+[2016 Apr 05 Tue 03:3:01 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 03:3:01 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 03:3:02 pm] getAllProfile $argumentsArray
+(
+)
+[2016 Apr 05 Tue 03:3:02 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+[2016 Apr 05 Tue 03:3:02 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile[2016 Apr 05 Tue 03:3:02 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+[2016 Apr 05 Tue 03:3:02 pm] getAllProfile $argumentsArray
+(
+)
+[2016 Apr 05 Tue 03:3:02 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+[2016 Apr 05 Tue 03:3:02 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile[2016 Apr 05 Tue 03:3:02 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+[2016 Apr 05 Tue 03:3:03 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 03:3:03 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+
+[2016 Apr 05 Tue 03:3:03 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 03:3:03 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 03:3:03 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 03:3:03 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+
+[2016 Apr 05 Tue 03:3:03 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 03:3:03 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 03:3:04 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 03:3:04 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+
+[2016 Apr 05 Tue 03:3:04 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 03:3:04 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 03:3:04 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 03:3:04 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+
+[2016 Apr 05 Tue 03:3:04 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 03:3:04 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 03:3:05 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 03:3:05 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+
+[2016 Apr 05 Tue 03:3:05 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 03:3:05 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 03:3:05 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 03:3:05 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+
+[2016 Apr 05 Tue 03:3:05 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 03:3:05 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 03:3:06 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 03:3:06 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+
+[2016 Apr 05 Tue 03:3:06 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 03:3:06 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 03:3:07 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 03:3:07 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+
+[2016 Apr 05 Tue 03:3:07 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 03:3:07 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 03:3:08 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 03:3:08 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+
+[2016 Apr 05 Tue 03:3:08 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 03:3:08 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 03:3:08 pm] getAllProfile $argumentsArray
+(
+)
+
+[2016 Apr 05 Tue 03:3:08 pm] getAllProfile $payload stdClass Object
+(
+    [filter] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [$or] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [$starts] => a
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [name] => My Account
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [max_num] => 2
+    [offset] => 0
+    [fields] => name,description
+    [order_by] => name:DESC
+    [favorites] => 
+    [my_items] => 
+)
+
+[2016 Apr 05 Tue 03:3:08 pm] RUNNING LOOKING FOR path==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 03:3:08 pm] RUNNING LOOKING FOR payload==Array
+(
+)
+
+[2016 Apr 05 Tue 03:3:09 pm] RUNNING REQUEST FOUND!!! ==./resources/testdata/cil-rest/getAllProfile
+[2016 Apr 05 Tue 03:3:09 pm] RUNNING REQUEST FOUND!!! ==./resources/testdata/cil-rest/getAllProfile

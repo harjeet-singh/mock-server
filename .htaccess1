@@ -1,8 +1,0 @@
-
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^cil-rest/(.*)$ CILService/rest.php?request=$1 [L,QSA]
-RewriteRule ^cil-soap/(.*)$ CILService/soap.php?request=$1 [L,QSA]
-</IfModule>
