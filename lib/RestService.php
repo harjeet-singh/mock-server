@@ -3,7 +3,7 @@
  * This class is an implemenatation class for all the web services
  */
 
-class RestService {
+abstract class RestService {
     
     /**
      * Property: method
@@ -38,27 +38,28 @@ class RestService {
      
      protected $payload = null;
 
-    public static $helperObject = null;
-    public static $base = 'testdata/';
+
+    protected static $base = 'testdata/';
+    
     protected $map = array();
-     
+    
+    protected $url;
+
+
     /**
      * Constructor: __construct
      * Allow for CORS, assemble and pre-process the data
      */
-    public function __construct($request) {
+    public function __construct() {
         header("Access-Control-Allow-Orgin: *");
         header("Access-Control-Allow-Methods: *");
         header("Content-Type: application/json");
 
-        $this->args = explode('/', rtrim($request, '/'));
+        parse_str($_SERVER['QUERY_STRING'], $this->args);
+        $this->verb = explode('/', rtrim($_REQUEST['request'], '/'));
         $this->endpoint = array_shift($this->args);
-        
-//        if (array_key_exists(0, $this->args) && !is_numeric($this->args[0])) {
-//            $this->verb = array_shift($this->args);
-//        }
-
         $this->method = $_SERVER['REQUEST_METHOD'];
+        
         if ($this->method == 'POST' && array_key_exists('HTTP_X_HTTP_METHOD', $_SERVER)) {
             if ($_SERVER['HTTP_X_HTTP_METHOD'] == 'DELETE') {
                 $this->method = 'DELETE';
@@ -82,7 +83,6 @@ class RestService {
             break;
         case 'PUT':
             $this->request = $this->_cleanInputs($_GET);
-            //$this->file = file_get_contents("php://input");
             $this->payload = json_decode(file_get_contents('php://input'), true);
             break;
         default:
@@ -90,18 +90,20 @@ class RestService {
             break;
         }
         
+        //endpoints added in extended classes
         $this->map = $this->registerApiRest();
+        $this->url = $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
     }
     
     public function serve() {
-        $GLOBALS['log']->write($this->map);
+
         if (
                 $this->endpoint == 'getDocumentation' || (
                 method_exists($this, $this->endpoint) && 
                 array_key_exists($this->endpoint, $this->map) &&
                 strcasecmp($this->map[$this->endpoint]['reqType'], $this->method) == 0)
             ) {
-            return $this->_response($this->{$this->endpoint}($this->args, $this->payload));
+            return $this->_response($this->{$this->endpoint}($this->url, $this->args, $this->payload));
         }
         
         $error_response = array('error' => "No Endpoint : $this->endpoint");
@@ -110,9 +112,7 @@ class RestService {
 
     private function _response($data, $status = 200) {
         header("HTTP/1.1 " . $status . " " . $this->_requestStatus($status));
-        //$GLOBALS["log']->write($data);
         return $data;
-        //return json_encode($data);
     }
 
     private function _cleanInputs($data) {
@@ -137,7 +137,7 @@ class RestService {
         return ($status[$code])?$status[$code]:$status[500]; 
     }
 
-    protected static function getResponse($url, $arguments=null, $payload=null)
+    protected static function getResponse($function, $url, $arguments=null, $payload=null)
     {
         // validate input and log the user in
         //do find response:
@@ -145,10 +145,9 @@ class RestService {
                 throw new Exception("404, Wrong Request: no url or data on POST");
         }
 
-        $filePath=$url;
-        //$GLOBALS['log']->write('getAllProfile $payload ' .print_r($payload,true));
+        $filePath=$function;
+        
         $input = array_merge($arguments, $payload);
-        //$input = $arguments;
         
         //build MD5
         $tomd5 = (!empty($input) ? json_encode($input) : '');
@@ -157,26 +156,20 @@ class RestService {
 
         $all = self::$base.(!empty($md5) ? (rtrim($filePath, '/').'/').$md5 :(rtrim($filePath, '/')));
 
-        $GLOBALS['log']->write('RUNNING LOOKING FOR path=='.$all,0);
-        
-        //chdir('../../');
-        $GLOBALS['log']->write($payload);
+        debug('Requset URL : '. $url);
+        debug('Requset Body : '.  json_encode($payload));
         $fullPath = $_SERVER['DOCUMENT_ROOT'].'/'.$all;
-        //$GLOBALS['log']->write(getcwd());
-        //$GLOBALS['log']->write(exec("ls $all"));
         
         if(file_exists($fullPath))
         {
-            $GLOBALS['log']->write('RUNNING REQUEST FOUND!!! =='.$fullPath,0);
-            return file_get_contents($all);
+            return file_get_contents($fullPath);
         }
         else{
-            $GLOBALS['log']->write('RUNNING REQUEST NOT FOUND =='.$fullPath,0);
             throw new Exception("No data found on server for [".$url."]". " [".$md5."]");
         }
     }
     
-    public function getDocumentation($arguments, $payload){
+    protected function getDocumentation($arguments, $payload){
         
         $response = "[". get_class($this)."]";
         $response .= "\n\n";
@@ -188,6 +181,10 @@ class RestService {
         }
         
         return $response;
+    }
+    
+    protected function registerApiRest(){
+        return array();
     }
 } 
 

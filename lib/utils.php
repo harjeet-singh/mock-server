@@ -1,8 +1,10 @@
 <?php
+require_once 'lib/Logger.php';
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+$log = new Logger("logs", "mockserver.log");
+global $log;
 
+function debug($msg)
+{
+    $GLOBALS['log']->write($msg);
+}

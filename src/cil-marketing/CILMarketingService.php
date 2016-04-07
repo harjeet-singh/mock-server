@@ -7,8 +7,8 @@ require_once('lib/RestService.php');
 class CILMarketingService extends RestService{
     
     
-    public function __construct($request) {
-        parent::__construct($request);
+    public function __construct() {
+        parent::__construct();
         parent::$base = (rtrim(parent::$base, '/').'/cil-marketing/');
 
     }
@@ -36,7 +36,7 @@ class CILMarketingService extends RestService{
     
     //Endpoint Implementations
     public static function getMarketingOffers($arguments, $payload){	
-        $GLOBALS['log']->write("called getMarketingOffers");
+        sleep(5);
         return parent::getResponse('getMarketingOffers', $arguments, $payload);
     }
 } 

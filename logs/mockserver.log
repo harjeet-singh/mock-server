@@ -5157,3 +5157,2216 @@
 
 )
 
+2016/04/07 15:53:19 Sevice Started...
+2016/04/07 15:53:19 Array
+(
+    [getDocumentation] => Array
+        (
+            [reqType] => get
+            [path] => Array
+                (
+                    [0] => getDocumentation
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getDocumentation
+            [shortHelp] => Get documentaton of the endpoints
+        )
+
+    [getMarketingOffers] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getMarketingOffers
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getMarketingOffers
+            [shortHelp] => Get Marketing Offers
+        )
+
+)
+
+2016/04/07 15:54:27 Sevice Started...
+2016/04/07 15:54:27 Array
+(
+    [getDocumentation] => Array
+        (
+            [reqType] => get
+            [path] => Array
+                (
+                    [0] => getDocumentation
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getDocumentation
+            [shortHelp] => Get documentaton of the endpoints
+        )
+
+    [getMarketingOffers] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getMarketingOffers
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getMarketingOffers
+            [shortHelp] => Get Marketing Offers
+        )
+
+)
+
+2016/04/07 15:54:28 Sevice Started...
+2016/04/07 15:54:28 Array
+(
+    [getAllProfile] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getAllProfile
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getAllProfile
+            [shortHelp] => get all profiles
+        )
+
+    [getInvoiceSummary] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getInvoiceSummary
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getInvoiceSummary
+            [shortHelp] => get invoice summary
+        )
+
+)
+
+2016/04/07 15:54:40 Sevice Started...
+2016/04/07 15:54:40 Array
+(
+    [getAllProfile] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getAllProfile
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getAllProfile
+            [shortHelp] => get all profiles
+        )
+
+    [getInvoiceSummary] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getInvoiceSummary
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getInvoiceSummary
+            [shortHelp] => get invoice summary
+        )
+
+)
+
+2016/04/07 15:54:43 Sevice Started...
+2016/04/07 15:54:43 Array
+(
+    [getAllProfile] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getAllProfile
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getAllProfile
+            [shortHelp] => get all profiles
+        )
+
+    [getInvoiceSummary] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getInvoiceSummary
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getInvoiceSummary
+            [shortHelp] => get invoice summary
+        )
+
+)
+
+2016/04/07 15:54:48 Sevice Started...
+2016/04/07 15:54:48 Array
+(
+    [getAllProfile] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getAllProfile
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getAllProfile
+            [shortHelp] => get all profiles
+        )
+
+    [getInvoiceSummary] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getInvoiceSummary
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getInvoiceSummary
+            [shortHelp] => get invoice summary
+        )
+
+)
+
+2016/04/07 15:55:20 Sevice Started...
+2016/04/07 15:55:20 Array
+(
+    [getAllProfile] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getAllProfile
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getAllProfile
+            [shortHelp] => get all profiles
+        )
+
+    [getInvoiceSummary] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getInvoiceSummary
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getInvoiceSummary
+            [shortHelp] => get invoice summary
+        )
+
+)
+
+2016/04/07 15:55:22 Sevice Started...
+2016/04/07 15:55:22 Array
+(
+    [getAllProfile] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getAllProfile
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getAllProfile
+            [shortHelp] => get all profiles
+        )
+
+    [getInvoiceSummary] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getInvoiceSummary
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getInvoiceSummary
+            [shortHelp] => get invoice summary
+        )
+
+)
+
+2016/04/07 15:55:25 Sevice Started...
+2016/04/07 15:55:25 Array
+(
+    [getAllProfile] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getAllProfile
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getAllProfile
+            [shortHelp] => get all profiles
+        )
+
+    [getInvoiceSummary] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getInvoiceSummary
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getInvoiceSummary
+            [shortHelp] => get invoice summary
+        )
+
+)
+
+2016/04/07 15:55:29 Sevice Started...
+2016/04/07 15:55:29 Array
+(
+    [getAllProfile] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getAllProfile
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getAllProfile
+            [shortHelp] => get all profiles
+        )
+
+    [getInvoiceSummary] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getInvoiceSummary
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getInvoiceSummary
+            [shortHelp] => get invoice summary
+        )
+
+)
+
+2016/04/07 15:55:39 Sevice Started...
+2016/04/07 15:55:39 Array
+(
+    [getAllProfile] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getAllProfile
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getAllProfile
+            [shortHelp] => get all profiles
+        )
+
+    [getInvoiceSummary] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getInvoiceSummary
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getInvoiceSummary
+            [shortHelp] => get invoice summary
+        )
+
+)
+
+2016/04/07 15:56:35 Sevice Started...
+2016/04/07 15:56:35 Array
+(
+    [getAllProfile] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getAllProfile
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getAllProfile
+            [shortHelp] => get all profiles
+        )
+
+    [getInvoiceSummary] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getInvoiceSummary
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getInvoiceSummary
+            [shortHelp] => get invoice summary
+        )
+
+)
+
+2016/04/07 15:58:18 Sevice Started...
+2016/04/07 15:58:18 Array
+(
+    [getDocumentation] => Array
+        (
+            [reqType] => get
+            [path] => Array
+                (
+                    [0] => getDocumentation
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getDocumentation
+            [shortHelp] => Get documentaton of the endpoints
+        )
+
+    [getMarketingOffers] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getMarketingOffers
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getMarketingOffers
+            [shortHelp] => Get Marketing Offers
+        )
+
+)
+
+2016/04/07 15:58:18 called getMarketingOffers
+2016/04/07 15:58:18 RUNNING LOOKING FOR path==testdata/cil-marketing/getMarketingOffers/e7ce35472e092ff470c4d2478e68b4b4
+2016/04/07 15:58:18 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystem] => source_system
+            [sourceSystemCustomerId] => customer_id
+        )
+
+)
+
+2016/04/07 15:58:18 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-marketing/getMarketingOffers/e7ce35472e092ff470c4d2478e68b4b4
+2016/04/07 15:58:56 Sevice Started...
+2016/04/07 15:58:56 Array
+(
+    [getDocumentation] => Array
+        (
+            [reqType] => get
+            [path] => Array
+                (
+                    [0] => getDocumentation
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getDocumentation
+            [shortHelp] => Get documentaton of the endpoints
+        )
+
+    [getMarketingOffers] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getMarketingOffers
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getMarketingOffers
+            [shortHelp] => Get Marketing Offers
+        )
+
+)
+
+2016/04/07 15:59:06 RUNNING LOOKING FOR path==testdata/cil-marketing/getMarketingOffers/e7ce35472e092ff470c4d2478e68b4b4
+2016/04/07 15:59:06 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystem] => source_system
+            [sourceSystemCustomerId] => customer_id
+        )
+
+)
+
+2016/04/07 15:59:06 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-marketing/getMarketingOffers/e7ce35472e092ff470c4d2478e68b4b4
+2016/04/07 15:59:18 Sevice Started...
+2016/04/07 15:59:18 Array
+(
+    [getDocumentation] => Array
+        (
+            [reqType] => get
+            [path] => Array
+                (
+                    [0] => getDocumentation
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getDocumentation
+            [shortHelp] => Get documentaton of the endpoints
+        )
+
+    [getMarketingOffers] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getMarketingOffers
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getMarketingOffers
+            [shortHelp] => Get Marketing Offers
+        )
+
+)
+
+2016/04/07 15:59:23 RUNNING LOOKING FOR path==testdata/cil-marketing/getMarketingOffers/e7ce35472e092ff470c4d2478e68b4b4
+2016/04/07 15:59:23 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystem] => source_system
+            [sourceSystemCustomerId] => customer_id
+        )
+
+)
+
+2016/04/07 15:59:23 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-marketing/getMarketingOffers/e7ce35472e092ff470c4d2478e68b4b4
+2016/04/07 15:59:24 Sevice Started...
+2016/04/07 15:59:24 Array
+(
+    [getDocumentation] => Array
+        (
+            [reqType] => get
+            [path] => Array
+                (
+                    [0] => getDocumentation
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getDocumentation
+            [shortHelp] => Get documentaton of the endpoints
+        )
+
+    [getMarketingOffers] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getMarketingOffers
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getMarketingOffers
+            [shortHelp] => Get Marketing Offers
+        )
+
+)
+
+2016/04/07 15:59:29 RUNNING LOOKING FOR path==testdata/cil-marketing/getMarketingOffers/e7ce35472e092ff470c4d2478e68b4b4
+2016/04/07 15:59:29 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystem] => source_system
+            [sourceSystemCustomerId] => customer_id
+        )
+
+)
+
+2016/04/07 15:59:29 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-marketing/getMarketingOffers/e7ce35472e092ff470c4d2478e68b4b4
+2016/04/07 16:03:35 Sevice Started...
+2016/04/07 16:03:35 Array
+(
+    [getDocumentation] => Array
+        (
+            [reqType] => get
+            [path] => Array
+                (
+                    [0] => getDocumentation
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getDocumentation
+            [shortHelp] => Get documentaton of the endpoints
+        )
+
+    [getMarketingOffers] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getMarketingOffers
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getMarketingOffers
+            [shortHelp] => Get Marketing Offers
+        )
+
+)
+
+2016/04/07 16:03:36 Sevice Started...
+2016/04/07 16:03:36 Array
+(
+    [getAllProfile] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getAllProfile
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getAllProfile
+            [shortHelp] => get all profiles
+        )
+
+    [getInvoiceSummary] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getInvoiceSummary
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getInvoiceSummary
+            [shortHelp] => get invoice summary
+        )
+
+)
+
+2016/04/07 16:29:12 Sevice Started...
+2016/04/07 16:29:12 Array
+(
+    [getAllProfile] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getAllProfile
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getAllProfile
+            [shortHelp] => get all profiles
+        )
+
+    [getInvoiceSummary] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getInvoiceSummary
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getInvoiceSummary
+            [shortHelp] => get invoice summary
+        )
+
+)
+
+2016/04/07 16:29:12 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:29:12 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystem] => source_system
+            [sourceSystemCustomerId] => customer_id
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 16:29:12 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:30:14 Sevice Started...
+2016/04/07 16:30:14 Array
+(
+    [getAllProfile] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getAllProfile
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getAllProfile
+            [shortHelp] => get all profiles
+        )
+
+    [getInvoiceSummary] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getInvoiceSummary
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getInvoiceSummary
+            [shortHelp] => get invoice summary
+        )
+
+)
+
+2016/04/07 16:30:14 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:30:14 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:30:21 Sevice Started...
+2016/04/07 16:30:21 Array
+(
+    [getAllProfile] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getAllProfile
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getAllProfile
+            [shortHelp] => get all profiles
+        )
+
+    [getInvoiceSummary] => Array
+        (
+            [reqType] => POST
+            [path] => Array
+                (
+                    [0] => getInvoiceSummary
+                )
+
+            [pathVars] => Array
+                (
+                    [0] => 
+                )
+
+            [method] => getInvoiceSummary
+            [shortHelp] => get invoice summary
+        )
+
+)
+
+2016/04/07 16:30:21 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:30:21 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:30:51 Sevice Started...
+2016/04/07 16:30:51 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:30:51 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:30:57 Sevice Started...
+2016/04/07 16:30:57 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:30:57 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:31:48 Sevice Started...
+2016/04/07 16:31:51 Sevice Started...
+2016/04/07 16:32:18 Mock Service Accessed...
+2016/04/07 16:32:22 Mock Service Accessed
+2016/04/07 16:32:32 Mock Service Accessed
+2016/04/07 16:32:32 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:32:32 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:32:39 Mock Service Accessed
+2016/04/07 16:32:39 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:32:39 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:33:16 Mock Service Accessed
+2016/04/07 16:33:16 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:33:16 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:34:55 Mock Service Accessed
+2016/04/07 16:34:55 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:34:55 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:35:09 Mock Service Accessed
+2016/04/07 16:35:09 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:35:09 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:35:09 Mock Service Accessed
+2016/04/07 16:35:10 Mock Service Accessed
+2016/04/07 16:36:13 Mock Service Accessed
+2016/04/07 16:36:31 Mock Service Accessed
+2016/04/07 16:36:42 Mock Service Accessed
+2016/04/07 16:36:44 Mock Service Accessed
+2016/04/07 16:36:55 Mock Service Accessed
+2016/04/07 16:36:55 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:36:55 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:37:00 Mock Service Accessed
+2016/04/07 16:37:07 Mock Service Accessed
+2016/04/07 16:37:07 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:37:07 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:37:20 Mock Service Accessed
+2016/04/07 16:37:48 Mock Service Accessed
+2016/04/07 16:37:48 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:37:48 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:38:28 Mock Service Accessed
+2016/04/07 16:38:28 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:38:28 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:38:30 Mock Service Accessed
+2016/04/07 16:38:30 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:38:30 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:38:51 Mock Service Accessed
+2016/04/07 16:38:51 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:38:51 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:39:34 Mock Service Accessed
+2016/04/07 16:39:34 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:39:34 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:39:34 {"getAllProfileCRMresponse":{"profile":{"regiId":{"sourceSystem":"DGT","setSourceSystem":true,"sourceSystemCustomerId":"70650804","setSourceSystemCustomerId":true},"setRegiId":true,"regiEmail":null,"setRegiEmail":false,"hdCustomerId":{"sourceSystem":"CIS","setSourceSystem":true,"sourceSystemCustomerId":"993900281","setSourceSystemCustomerId":true},"setHdCustomerId":true,"deliveryType":"HD","setDeliveryType":true,"customerType":"RG","setCustomerType":true,"entitlement":[{"name":{"firstName":"TRRLZTE","lastName":"TRRLZTE","setLastName":true,"middleName":"","setFirstName":true,"setMiddleName":true},"status":"ACTIVE","setName":true,"customerAccessKey":{"sourceSystem":"CIS","setSourceSystem":true,"sourceSystemCustomerId":"993900281","setSourceSystemCustomerId":true},"setCustomerAccessKey":true,"subscriptionAccessKey":{"sourceSystem":"CIS","setSourceSystem":true,"sourceSystemSubscriptionId":"993900281","setSourceSystemSubscriptionId":true},"setSubscriptionAccessKey":true,"setStatus":true,"startDate":"2014-05-27T00:00:00.000-04:00","setStartDate":true,"productId":"DS","setProductId":true,"productDescription":"THE NEW YORK TIMES HD MON-SUN","setProductDescription":true,"dpmeligibilityFlag":false,"setDPMeligibilityFlag":true}],"subscriptionType":"","setEntitlement":true,"isRegiEmailAvailable":false,"setIsRegiEmailAvailable":true,"isFamilyPlanEligible":true,"setIsFamilyPlanEligible":true,"maxDependents":1,"setMaxDependents":true,"setSubscriptionType":true},"family":{"parent":{"name":{"firstName":"TRRLZTE","lastName":"TRRLZTE","setLastName":true,"middleName":null,"setFirstName":true,"setMiddleName":false},"setName":true,"customerAccessKey":{"sourceSystem":"CIS","setSourceSystem":true,"sourceSystemCustomerId":"993900281","setSourceSystemCustomerId":true},"setCustomerAccessKey":true,"email":{"emailAddress":"2.26may2014@example.com","setEmailAddress":true,"emailType":"REGI_EMAIL","setEmailType":true},"setEmail":true},"children":{"child":[],"setChild":false},"setParent":true,"setChildren":true,"invitations":{"invitation":[],"setInvitation":false},"setInvitations":true},"returnCode":null,"returnMessage":null,"basicInfo":{"billingAddress":{"state":"NY","country":"00000","addressLine1":"567 8TH AVE","setAddressLine1":true,"city":"NEW YORK","setCity":true,"setCountry":true,"postalCode":"10018","setPostalCode":true,"setState":true,"county":null,"setCounty":false,"zipExtension":"","foreignPostalCode":"","careof":"","billingName":{"firstName":"TRRLZTE","lastName":"TRRLZTE","setLastName":true,"middleName":null,"setFirstName":true,"setMiddleName":false},"setZipExtension":true,"setBillingName":true,"setCareof":true,"setForeignPostalCode":true},"setBillingAddress":true,"paymentProfile":{"cvv":null,"setCvv":false,"creditCardType":null,"ccNumber":null,"creditCardMonth":null,"creditCardYear":null,"bankAccountNumber":null,"bankRoutingNumber":null,"payType":"MS","setCreditCardType":false,"setCcNumber":false,"setCreditCardYear":false,"setCreditCardMonth":false,"setBankAccountNumber":false,"setBankRoutingNumber":false,"setPayType":true},"setPaymentProfile":true,"deliveryAddress":{"state":"NY","country":"00000","emailAddress":"2.26may2014@example.com","optInFlag":false,"setOptInFlag":true,"addressLine1":"","setAddressLine1":true,"addressLine2":"","setAddressLine2":true,"city":"NEW YORK","setCity":true,"setCountry":true,"postalCode":"10018","setPostalCode":true,"setEmailAddress":true,"setState":true,"streetNumber":"567","setStreetNumber":true,"streetPrefix":"","setStreetPrefix":true,"streetName":"8TH","setStreetName":true,"streetSuffix":"AVE","setStreetSuffix":true,"dirSuffix":"","setDirSuffix":true,"aprtNumber":"","setAprtNumber":true,"buildingNumber":"","setBuildingNumber":true,"homePhone":"9177809773","setHomePhone":true,"homeTelephoneRefuseIndicator":null,"setHomeTelephoneRefuseIndicator":false,"specialInstructions":"","setSpecialInstructions":true,"county":null,"setCounty":false,"otherInfo":"","zipExtension":"4300","workPhone":"","otherLine1":"","otherLine2":"","poBox":"","otherTagForMS":null,"buildingForMS":null,"floorForMS":null,"foreignPostalCode":"","careof":"","deliveryName":{"firstName":"TRRLZTE","lastName":"TRRLZTE","setLastName":true,"middleName":null,"setFirstName":true,"setMiddleName":false},"buildingAccessCode":"","cisForeignPostalCode":null,"cisBuilding":"","setZipExtension":true,"setCareof":true,"setForeignPostalCode":true,"setDeliveryName":true,"setBuildingAccessCode":true,"setCisForeignPostalCode":false,"setPoBox":true,"setOtherInfo":true,"setWorkPhone":true,"setOtherLine1":true,"setOtherLine2":true,"setCisBuilding":true,"setOtherTagForMS":false,"setBuildingForMS":false,"setFloorForMS":false},"setDeliveryAddress":true,"productInfo":{"referenceNumber":null,"deliveryMode":null,"campaignCode":null,"setCampaignCode":false,"offerCode":null,"setOfferCode":false,"productCode":"DS","setProductCode":true,"deliveryType":"HD","setDeliveryType":true,"billingType":null,"setBillingType":false,"billingFrequency":null,"setBillingFrequency":false,"productEffectiveDate":"052714","setProductEffectiveDate":true,"mediaCode":"WXX9D","setMediaCode":true,"promoCode":"R111","setPromoCode":true,"promoDescription":"HD...0%.OFF.NOEXP.REGULAR","setPromoDescription":true,"numOfCopies":"001","setNumOfCopies":true,"prodStatus":"01","setProdStatus":true,"contact":null,"setContact":false,"setDeliveryMode":false,"promoExpDate":"123169","setPromoExpDate":true,"dataWarehouseId":null,"setDataWarehouseId":false,"prodSource":null,"setProdSource":false,"campaignCodeParnt":"00BGF","setCampaignCodeParnt":true,"campaignOccCodeParnt":"","setCampaignOccCodeParnt":true,"dataWarehouseIdParnt":"","setDataWarehouseIdParnt":true,"offerCodeParnt":"","setOfferCodeParnt":true,"campaignOccCode":null,"setCampaignOccCode":false,"mailRateCode":null,"solic":null,"productExpiryDate":"000000","sourceCode":null,"msProductSW":null,"setProductExpiryDate":true,"setReferenceNumber":false,"setSourceCode":false,"setSolic":false,"setMailRateCode":false,"setMsProductSW":false},"setProductInfo":true,"route":{"routeMon":"101056","routeTue":"101056","routeWed":"101056","routeThu":"101056","routeFri":"101056","routeSat":"101056","routeSun":"101056","setRouteMon":true,"setRouteTue":true,"setRouteWed":true,"setRouteFri":true,"setRouteSat":true,"setRouteSun":true,"setRouteThu":true},"setRoute":true,"acctInfo":{"startDate":"052714","setStartDate":true,"subscriberType":"","setSubscriberType":true,"customerType":"RG","setCustomerType":true,"billingType":"A","setBillingType":true,"billingFrequency":"04","setBillingFrequency":true,"subArea":"14","subDistrict":"038","subDepot":"94C","lastBillDate":"072214","niefFlag":"","maxBypassDays":"022","bypassDunnDays":"000","billImmFlg":"","costCenter":"","currBalance":"125.50","nextBillDate":"081914","stopLeadDays":"01","subRegion":"ND","hdDgtTotBal":"125.50","digitalFlag":"N","digitalProdTable":[{"digitalProdCd":"","setDigitalProdCd":true,"digitalStatus":"","setDigitalStatus":true,"digitalPromoCd":"","setDigitalPromoCd":true,"digitalPromoDesc":"","setDigitalPromoDesc":true,"digitalPromoExpDt":"","setDigitalPromoExpDt":true,"digitalCurrBal":"","setDigitalCurrBal":true,"digitalBillFromDt":"","setDigitalBillFromDt":true,"digitalBillLastAmt":"","setDigitalBillLastAmt":true,"digitalLastPmtDt":"","setDigitalLastPmtDt":true,"digitalLastPmtAmt":"","setDigitalLastPmtAmt":true},{"digitalProdCd":"","setDigitalProdCd":true,"digitalStatus":"","setDigitalStatus":true,"digitalPromoCd":"","setDigitalPromoCd":true,"digitalPromoDesc":"","setDigitalPromoDesc":true,"digitalPromoExpDt":"","setDigitalPromoExpDt":true,"digitalCurrBal":"","setDigitalCurrBal":true,"digitalBillFromDt":"","setDigitalBillFromDt":true,"digitalBillLastAmt":"","setDigitalBillLastAmt":true,"digitalLastPmtDt":"","setDigitalLastPmtDt":true,"digitalLastPmtAmt":"","setDigitalLastPmtAmt":true},{"digitalProdCd":"","setDigitalProdCd":true,"digitalStatus":"","setDigitalStatus":true,"digitalPromoCd":"","setDigitalPromoCd":true,"digitalPromoDesc":"","setDigitalPromoDesc":true,"digitalPromoExpDt":"","setDigitalPromoExpDt":true,"digitalCurrBal":"","setDigitalCurrBal":true,"digitalBillFromDt":"","setDigitalBillFromDt":true,"digitalBillLastAmt":"","setDigitalBillLastAmt":true,"digitalLastPmtDt":"","setDigitalLastPmtDt":true,"digitalLastPmtAmt":"","setDigitalLastPmtAmt":true}],"dunningLevel":"4","lastPaymentAmount":"0.00","payByCcFlag":"","acctNumber":"993900281","lastDunningDate":"072714","nextDunningDate":"082514","lastPaymentDate":"000000","setDunningLevel":true,"setLastPaymentAmount":true,"setLastPaymentDate":true,"parentAccountNumber":"","setParentAccountNumber":true,"acctStatus":"01","setAcctStatus":true,"setAcctNumber":true,"setCurrBalance":true,"setLastBillDate":true,"setNextBillDate":true,"lastBillAmount":"125.50","setLastBillAmount":true,"complaintToday":null,"setComplaintToday":false,"grpAcctFlag":"","setGrpAcctFlag":true,"setSubArea":true,"setSubDistrict":true,"setSubDepot":true,"recoveryRouteIndicator":"Y","setRecoveryRouteIndicator":true,"setStopLeadDays":true,"setPayByCcFlag":true,"setSubRegion":true,"setHdDgtTotBal":true,"setDigitalFlag":true,"setDigitalProdTable":true,"niefAmount":"","setNiefAmount":true,"setNiefFlag":true,"printInvoiceIndicator":"","setPrintInvoiceIndicator":true,"setBypassDunnDays":true,"setMaxBypassDays":true,"setBillImmFlg":true,"setLastDunningDate":true,"setNextDunningDate":true,"setCostCenter":true},"isCLDBInfo":false,"setIsCLDBInfo":true,"setAcctInfo":true,"addlDeliveryInfo":{"deliveryTime":"0630","recoveryTime":"1100","restartLeadDays":"01","startLeadDays":"01","routeDepotAlertMessage":"","stopASAPDate":"080114","setRecoveryTime":true,"setStopASAPDate":true,"setDeliveryTime":true,"routeDepotAlertTime":"","setRouteDepotAlertTime":true,"setRouteDepotAlertMessage":true,"advCode":null,"setAdvCode":false,"setRestartLeadDays":true,"setStartLeadDays":true},"setAddlDeliveryInfo":true,"alternateAddressInfo":{"state":"","country":"","city":"","setCity":true,"setCountry":true,"postalCode":"","setPostalCode":true,"setState":true,"phoneNumber":"","setPhoneNumber":true,"streetNumber":"","setStreetNumber":true,"streetPrefix":"","setStreetPrefix":true,"streetName":"","setStreetName":true,"streetSuffix":"","setStreetSuffix":true,"dateStart":"","setDateStart":true,"dateEnd":"","setDateEnd":true,"dirSuffix":"","setDirSuffix":true,"aprtNumber":"","setAprtNumber":true,"buildingNumber":"","setBuildingNumber":true,"buildingAccess":"","setBuildingAccess":true,"zipPlus":"","setZipPlus":true,"county":"","setCounty":true,"prodId":"","setProdId":true},"setAlternateAddressInfo":true},"setReturnCode":false,"setReturnMessage":false,"setProfile":true,"setFamily":true,"setBasicInfo":true,"result":true,"cilSystem":null,"setCilSystem":false,"setResult":true}}
+2016/04/07 16:40:24 Mock Service Accessed
+2016/04/07 16:40:24 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:40:24 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:40:24 {"getAllProfileCRMresponse":{"profile":{"regiId":{"sourceSystem":"DGT","setSourceSystem":true,"sourceSystemCustomerId":"70650804","setSourceSystemCustomerId":true},"setRegiId":true,"regiEmail":null,"setRegiEmail":false,"hdCustomerId":{"sourceSystem":"CIS","setSourceSystem":true,"sourceSystemCustomerId":"993900281","setSourceSystemCustomerId":true},"setHdCustomerId":true,"deliveryType":"HD","setDeliveryType":true,"customerType":"RG","setCustomerType":true,"entitlement":[{"name":{"firstName":"TRRLZTE","lastName":"TRRLZTE","setLastName":true,"middleName":"","setFirstName":true,"setMiddleName":true},"status":"ACTIVE","setName":true,"customerAccessKey":{"sourceSystem":"CIS","setSourceSystem":true,"sourceSystemCustomerId":"993900281","setSourceSystemCustomerId":true},"setCustomerAccessKey":true,"subscriptionAccessKey":{"sourceSystem":"CIS","setSourceSystem":true,"sourceSystemSubscriptionId":"993900281","setSourceSystemSubscriptionId":true},"setSubscriptionAccessKey":true,"setStatus":true,"startDate":"2014-05-27T00:00:00.000-04:00","setStartDate":true,"productId":"DS","setProductId":true,"productDescription":"THE NEW YORK TIMES HD MON-SUN","setProductDescription":true,"dpmeligibilityFlag":false,"setDPMeligibilityFlag":true}],"subscriptionType":"","setEntitlement":true,"isRegiEmailAvailable":false,"setIsRegiEmailAvailable":true,"isFamilyPlanEligible":true,"setIsFamilyPlanEligible":true,"maxDependents":1,"setMaxDependents":true,"setSubscriptionType":true},"family":{"parent":{"name":{"firstName":"TRRLZTE","lastName":"TRRLZTE","setLastName":true,"middleName":null,"setFirstName":true,"setMiddleName":false},"setName":true,"customerAccessKey":{"sourceSystem":"CIS","setSourceSystem":true,"sourceSystemCustomerId":"993900281","setSourceSystemCustomerId":true},"setCustomerAccessKey":true,"email":{"emailAddress":"2.26may2014@example.com","setEmailAddress":true,"emailType":"REGI_EMAIL","setEmailType":true},"setEmail":true},"children":{"child":[],"setChild":false},"setParent":true,"setChildren":true,"invitations":{"invitation":[],"setInvitation":false},"setInvitations":true},"returnCode":null,"returnMessage":null,"basicInfo":{"billingAddress":{"state":"NY","country":"00000","addressLine1":"567 8TH AVE","setAddressLine1":true,"city":"NEW YORK","setCity":true,"setCountry":true,"postalCode":"10018","setPostalCode":true,"setState":true,"county":null,"setCounty":false,"zipExtension":"","foreignPostalCode":"","careof":"","billingName":{"firstName":"TRRLZTE","lastName":"TRRLZTE","setLastName":true,"middleName":null,"setFirstName":true,"setMiddleName":false},"setZipExtension":true,"setBillingName":true,"setCareof":true,"setForeignPostalCode":true},"setBillingAddress":true,"paymentProfile":{"cvv":null,"setCvv":false,"creditCardType":null,"ccNumber":null,"creditCardMonth":null,"creditCardYear":null,"bankAccountNumber":null,"bankRoutingNumber":null,"payType":"MS","setCreditCardType":false,"setCcNumber":false,"setCreditCardYear":false,"setCreditCardMonth":false,"setBankAccountNumber":false,"setBankRoutingNumber":false,"setPayType":true},"setPaymentProfile":true,"deliveryAddress":{"state":"NY","country":"00000","emailAddress":"2.26may2014@example.com","optInFlag":false,"setOptInFlag":true,"addressLine1":"","setAddressLine1":true,"addressLine2":"","setAddressLine2":true,"city":"NEW YORK","setCity":true,"setCountry":true,"postalCode":"10018","setPostalCode":true,"setEmailAddress":true,"setState":true,"streetNumber":"567","setStreetNumber":true,"streetPrefix":"","setStreetPrefix":true,"streetName":"8TH","setStreetName":true,"streetSuffix":"AVE","setStreetSuffix":true,"dirSuffix":"","setDirSuffix":true,"aprtNumber":"","setAprtNumber":true,"buildingNumber":"","setBuildingNumber":true,"homePhone":"9177809773","setHomePhone":true,"homeTelephoneRefuseIndicator":null,"setHomeTelephoneRefuseIndicator":false,"specialInstructions":"","setSpecialInstructions":true,"county":null,"setCounty":false,"otherInfo":"","zipExtension":"4300","workPhone":"","otherLine1":"","otherLine2":"","poBox":"","otherTagForMS":null,"buildingForMS":null,"floorForMS":null,"foreignPostalCode":"","careof":"","deliveryName":{"firstName":"TRRLZTE","lastName":"TRRLZTE","setLastName":true,"middleName":null,"setFirstName":true,"setMiddleName":false},"buildingAccessCode":"","cisForeignPostalCode":null,"cisBuilding":"","setZipExtension":true,"setCareof":true,"setForeignPostalCode":true,"setDeliveryName":true,"setBuildingAccessCode":true,"setCisForeignPostalCode":false,"setPoBox":true,"setOtherInfo":true,"setWorkPhone":true,"setOtherLine1":true,"setOtherLine2":true,"setCisBuilding":true,"setOtherTagForMS":false,"setBuildingForMS":false,"setFloorForMS":false},"setDeliveryAddress":true,"productInfo":{"referenceNumber":null,"deliveryMode":null,"campaignCode":null,"setCampaignCode":false,"offerCode":null,"setOfferCode":false,"productCode":"DS","setProductCode":true,"deliveryType":"HD","setDeliveryType":true,"billingType":null,"setBillingType":false,"billingFrequency":null,"setBillingFrequency":false,"productEffectiveDate":"052714","setProductEffectiveDate":true,"mediaCode":"WXX9D","setMediaCode":true,"promoCode":"R111","setPromoCode":true,"promoDescription":"HD...0%.OFF.NOEXP.REGULAR","setPromoDescription":true,"numOfCopies":"001","setNumOfCopies":true,"prodStatus":"01","setProdStatus":true,"contact":null,"setContact":false,"setDeliveryMode":false,"promoExpDate":"123169","setPromoExpDate":true,"dataWarehouseId":null,"setDataWarehouseId":false,"prodSource":null,"setProdSource":false,"campaignCodeParnt":"00BGF","setCampaignCodeParnt":true,"campaignOccCodeParnt":"","setCampaignOccCodeParnt":true,"dataWarehouseIdParnt":"","setDataWarehouseIdParnt":true,"offerCodeParnt":"","setOfferCodeParnt":true,"campaignOccCode":null,"setCampaignOccCode":false,"mailRateCode":null,"solic":null,"productExpiryDate":"000000","sourceCode":null,"msProductSW":null,"setProductExpiryDate":true,"setReferenceNumber":false,"setSourceCode":false,"setSolic":false,"setMailRateCode":false,"setMsProductSW":false},"setProductInfo":true,"route":{"routeMon":"101056","routeTue":"101056","routeWed":"101056","routeThu":"101056","routeFri":"101056","routeSat":"101056","routeSun":"101056","setRouteMon":true,"setRouteTue":true,"setRouteWed":true,"setRouteFri":true,"setRouteSat":true,"setRouteSun":true,"setRouteThu":true},"setRoute":true,"acctInfo":{"startDate":"052714","setStartDate":true,"subscriberType":"","setSubscriberType":true,"customerType":"RG","setCustomerType":true,"billingType":"A","setBillingType":true,"billingFrequency":"04","setBillingFrequency":true,"subArea":"14","subDistrict":"038","subDepot":"94C","lastBillDate":"072214","niefFlag":"","maxBypassDays":"022","bypassDunnDays":"000","billImmFlg":"","costCenter":"","currBalance":"125.50","nextBillDate":"081914","stopLeadDays":"01","subRegion":"ND","hdDgtTotBal":"125.50","digitalFlag":"N","digitalProdTable":[{"digitalProdCd":"","setDigitalProdCd":true,"digitalStatus":"","setDigitalStatus":true,"digitalPromoCd":"","setDigitalPromoCd":true,"digitalPromoDesc":"","setDigitalPromoDesc":true,"digitalPromoExpDt":"","setDigitalPromoExpDt":true,"digitalCurrBal":"","setDigitalCurrBal":true,"digitalBillFromDt":"","setDigitalBillFromDt":true,"digitalBillLastAmt":"","setDigitalBillLastAmt":true,"digitalLastPmtDt":"","setDigitalLastPmtDt":true,"digitalLastPmtAmt":"","setDigitalLastPmtAmt":true},{"digitalProdCd":"","setDigitalProdCd":true,"digitalStatus":"","setDigitalStatus":true,"digitalPromoCd":"","setDigitalPromoCd":true,"digitalPromoDesc":"","setDigitalPromoDesc":true,"digitalPromoExpDt":"","setDigitalPromoExpDt":true,"digitalCurrBal":"","setDigitalCurrBal":true,"digitalBillFromDt":"","setDigitalBillFromDt":true,"digitalBillLastAmt":"","setDigitalBillLastAmt":true,"digitalLastPmtDt":"","setDigitalLastPmtDt":true,"digitalLastPmtAmt":"","setDigitalLastPmtAmt":true},{"digitalProdCd":"","setDigitalProdCd":true,"digitalStatus":"","setDigitalStatus":true,"digitalPromoCd":"","setDigitalPromoCd":true,"digitalPromoDesc":"","setDigitalPromoDesc":true,"digitalPromoExpDt":"","setDigitalPromoExpDt":true,"digitalCurrBal":"","setDigitalCurrBal":true,"digitalBillFromDt":"","setDigitalBillFromDt":true,"digitalBillLastAmt":"","setDigitalBillLastAmt":true,"digitalLastPmtDt":"","setDigitalLastPmtDt":true,"digitalLastPmtAmt":"","setDigitalLastPmtAmt":true}],"dunningLevel":"4","lastPaymentAmount":"0.00","payByCcFlag":"","acctNumber":"993900281","lastDunningDate":"072714","nextDunningDate":"082514","lastPaymentDate":"000000","setDunningLevel":true,"setLastPaymentAmount":true,"setLastPaymentDate":true,"parentAccountNumber":"","setParentAccountNumber":true,"acctStatus":"01","setAcctStatus":true,"setAcctNumber":true,"setCurrBalance":true,"setLastBillDate":true,"setNextBillDate":true,"lastBillAmount":"125.50","setLastBillAmount":true,"complaintToday":null,"setComplaintToday":false,"grpAcctFlag":"","setGrpAcctFlag":true,"setSubArea":true,"setSubDistrict":true,"setSubDepot":true,"recoveryRouteIndicator":"Y","setRecoveryRouteIndicator":true,"setStopLeadDays":true,"setPayByCcFlag":true,"setSubRegion":true,"setHdDgtTotBal":true,"setDigitalFlag":true,"setDigitalProdTable":true,"niefAmount":"","setNiefAmount":true,"setNiefFlag":true,"printInvoiceIndicator":"","setPrintInvoiceIndicator":true,"setBypassDunnDays":true,"setMaxBypassDays":true,"setBillImmFlg":true,"setLastDunningDate":true,"setNextDunningDate":true,"setCostCenter":true},"isCLDBInfo":false,"setIsCLDBInfo":true,"setAcctInfo":true,"addlDeliveryInfo":{"deliveryTime":"0630","recoveryTime":"1100","restartLeadDays":"01","startLeadDays":"01","routeDepotAlertMessage":"","stopASAPDate":"080114","setRecoveryTime":true,"setStopASAPDate":true,"setDeliveryTime":true,"routeDepotAlertTime":"","setRouteDepotAlertTime":true,"setRouteDepotAlertMessage":true,"advCode":null,"setAdvCode":false,"setRestartLeadDays":true,"setStartLeadDays":true},"setAddlDeliveryInfo":true,"alternateAddressInfo":{"state":"","country":"","city":"","setCity":true,"setCountry":true,"postalCode":"","setPostalCode":true,"setState":true,"phoneNumber":"","setPhoneNumber":true,"streetNumber":"","setStreetNumber":true,"streetPrefix":"","setStreetPrefix":true,"streetName":"","setStreetName":true,"streetSuffix":"","setStreetSuffix":true,"dateStart":"","setDateStart":true,"dateEnd":"","setDateEnd":true,"dirSuffix":"","setDirSuffix":true,"aprtNumber":"","setAprtNumber":true,"buildingNumber":"","setBuildingNumber":true,"buildingAccess":"","setBuildingAccess":true,"zipPlus":"","setZipPlus":true,"county":"","setCounty":true,"prodId":"","setProdId":true},"setAlternateAddressInfo":true},"setReturnCode":false,"setReturnMessage":false,"setProfile":true,"setFamily":true,"setBasicInfo":true,"result":true,"cilSystem":null,"setCilSystem":false,"setResult":true}}
+2016/04/07 16:40:39 Mock Service Accessed
+2016/04/07 16:40:39 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:40:39 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:40:54 Mock Service Accessed
+2016/04/07 16:40:57 Mock Service Accessed
+2016/04/07 16:40:57 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:40:57 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/ea8c774d739511d747a2c868fd17e76d
+2016/04/07 16:42:01 Mock Service Accessed
+2016/04/07 16:42:15 Mock Service Accessed
+2016/04/07 16:43:21 Mock Service Accessed
+2016/04/07 16:44:05 Mock Service Accessed
+2016/04/07 16:44:47 Mock Service Accessed
+2016/04/07 16:44:58 Mock Service Accessed
+2016/04/07 16:45:45 Mock Service Accessed
+2016/04/07 16:45:47 Mock Service Accessed
+2016/04/07 16:45:55 Mock Service Accessed
+2016/04/07 16:46:22 Mock Service Accessed
+2016/04/07 16:46:41 Mock Service Accessed
+2016/04/07 16:46:54 Mock Service Accessed
+2016/04/07 16:47:00 Mock Service Accessed
+2016/04/07 16:47:32 Mock Service Accessed
+2016/04/07 16:48:10 Mock Service Accessed
+2016/04/07 16:48:34 Mock Service Accessed
+2016/04/07 16:48:34 Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => cil-rest.localhost
+    [HTTP_CONNECTION] => keep-alive
+    [CONTENT_LENGTH] => 133
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_ORIGIN] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [CONTENT_TYPE] => application/json
+    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    [HTTP_POSTMAN_TOKEN] => 604b2fb3-f64f-4562-21eb-8f55a0ed6e2e
+    [HTTP_ACCEPT] => */*
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [SERVER_SIGNATURE] => <address>Apache/2.4.7 (Ubuntu) Server at cil-rest.localhost Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.7 (Ubuntu)
+    [SERVER_NAME] => cil-rest.localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => /var/www/html/mockserver
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/html/mockserver
+    [SERVER_ADMIN] => cil-service@example.com
+    [SCRIPT_FILENAME] => /var/www/html/mockserver/rest.php
+    [REMOTE_PORT] => 41568
+    [REDIRECT_QUERY_STRING] => request=getAllProfile&csrLoginName=harjeet
+    [REDIRECT_URL] => /rest/getAllProfile
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => request=getDocumentation&request=getAllProfile&csrLoginName=harjeet
+    [REQUEST_URI] => /rest/getAllProfile?csrLoginName=harjeet
+    [SCRIPT_NAME] => /rest.php
+    [PHP_SELF] => /rest.php
+    [REQUEST_TIME_FLOAT] => 1460062114.884
+    [REQUEST_TIME] => 1460062114
+)
+
+2016/04/07 16:49:36 Mock Service Accessed
+2016/04/07 16:50:20 Mock Service Accessed
+2016/04/07 16:50:20 Array
+(
+)
+
+2016/04/07 16:50:57 Mock Service Accessed
+2016/04/07 16:50:57 
+2016/04/07 16:51:07 Mock Service Accessed
+2016/04/07 16:51:07 Array
+(
+    [request] => getAllProfile
+    [csrLoginName] => harjeet
+)
+
+2016/04/07 16:51:23 Mock Service Accessed
+2016/04/07 16:51:23 {'callingSystem':'SUG','customerAccessKey':{'sourceSystemCustomerId':'38844268','sourceSystem':'DGT'},'csrLoginName':'harjeet.singh'}
+2016/04/07 16:51:39 Mock Service Accessed
+2016/04/07 16:51:39 
+2016/04/07 16:52:15 Mock Service Accessed
+2016/04/07 16:52:40 Mock Service Accessed
+2016/04/07 16:52:40 
+2016/04/07 16:52:52 Mock Service Accessed
+2016/04/07 16:52:52 
+2016/04/07 16:53:03 Mock Service Accessed
+2016/04/07 16:53:12 Mock Service Accessed
+2016/04/07 16:53:18 Mock Service Accessed
+2016/04/07 16:53:20 Mock Service Accessed
+2016/04/07 16:53:21 Mock Service Accessed
+2016/04/07 16:53:42 Mock Service Accessed
+2016/04/07 16:53:42 {'callingSystem':'SUG','customerAccessKey':{'sourceSystemCustomerId':'38844268','sourceSystem':'DGT'},'csrLoginName':'harjeet.singh'}
+2016/04/07 16:53:52 Mock Service Accessed
+2016/04/07 16:53:52 
+2016/04/07 16:54:06 Mock Service Accessed
+2016/04/07 16:54:06 
+2016/04/07 16:54:11 Mock Service Accessed
+2016/04/07 16:54:11 
+2016/04/07 16:54:15 Mock Service Accessed
+2016/04/07 16:54:15 {'callingSystem':'SUG','customerAccessKey':{'sourceSystemCustomerId':'38844268','sourceSystem':'DGT'},'csrLoginName':'harjeet.singh'}
+2016/04/07 16:56:03 Mock Service Accessed
+2016/04/07 16:56:03 {"callingSystem":"SUG","customerAccessKey":{"sourceSystemCustomerId":"38844268","sourceSystem":"DGT"},"csrLoginName":"harjeet.singh"}
+2016/04/07 16:56:26 Mock Service Accessed
+2016/04/07 16:56:26 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 16:56:26 Array
+(
+)
+
+2016/04/07 16:56:26 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 16:56:26 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 16:56:55 Mock Service Accessed
+2016/04/07 16:56:55 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 16:56:55 Array
+(
+)
+
+2016/04/07 16:56:55 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 16:56:55 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 16:57:05 Mock Service Accessed
+2016/04/07 16:57:12 Mock Service Accessed
+2016/04/07 16:57:12 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 16:57:12 Array
+(
+)
+
+2016/04/07 16:57:12 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 16:57:12 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 16:59:33 Mock Service Accessed
+2016/04/07 16:59:33 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 16:59:33 Array
+(
+)
+
+2016/04/07 16:59:33 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 16:59:33 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:01:30 Mock Service Accessed
+2016/04/07 17:01:30 Array
+(
+)
+
+2016/04/07 17:01:30 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:01:30 Array
+(
+)
+
+2016/04/07 17:01:30 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:01:30 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:01:58 Mock Service Accessed
+2016/04/07 17:01:58 Array
+(
+)
+
+2016/04/07 17:01:58 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:01:58 Array
+(
+)
+
+2016/04/07 17:01:58 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:01:58 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:02:17 Mock Service Accessed
+2016/04/07 17:02:17 getAllProfile
+2016/04/07 17:02:17 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:02:17 Array
+(
+)
+
+2016/04/07 17:02:17 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:02:17 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:02:24 Mock Service Accessed
+2016/04/07 17:02:24 getAllProfile
+2016/04/07 17:02:24 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:02:24 Array
+(
+)
+
+2016/04/07 17:02:24 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:02:24 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:02:55 Mock Service Accessed
+2016/04/07 17:02:55 Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => cil-rest.localhost
+    [HTTP_CONNECTION] => keep-alive
+    [CONTENT_LENGTH] => 133
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_ORIGIN] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [CONTENT_TYPE] => application/json
+    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    [HTTP_POSTMAN_TOKEN] => 15635bc0-57ec-c4d6-a4f3-882a1fd31007
+    [HTTP_ACCEPT] => */*
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [SERVER_SIGNATURE] => <address>Apache/2.4.7 (Ubuntu) Server at cil-rest.localhost Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.7 (Ubuntu)
+    [SERVER_NAME] => cil-rest.localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => /var/www/html/mockserver
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/html/mockserver
+    [SERVER_ADMIN] => cil-service@example.com
+    [SCRIPT_FILENAME] => /var/www/html/mockserver/rest.php
+    [REMOTE_PORT] => 41668
+    [REDIRECT_QUERY_STRING] => request=getAllProfile&csrLoginName=harjeet
+    [REDIRECT_URL] => /rest/getAllProfile
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => request=getDocumentation&request=getAllProfile&csrLoginName=harjeet
+    [REQUEST_URI] => /rest/getAllProfile?csrLoginName=harjeet
+    [SCRIPT_NAME] => /rest.php
+    [PHP_SELF] => /rest.php
+    [REQUEST_TIME_FLOAT] => 1460062975.047
+    [REQUEST_TIME] => 1460062975
+)
+
+2016/04/07 17:02:55 getAllProfile
+2016/04/07 17:02:55 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:02:55 Array
+(
+)
+
+2016/04/07 17:02:55 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:02:55 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:04:31 Mock Service Accessed
+2016/04/07 17:04:31 Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => cil-rest.localhost
+    [HTTP_CONNECTION] => keep-alive
+    [CONTENT_LENGTH] => 133
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_ORIGIN] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [CONTENT_TYPE] => application/json
+    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    [HTTP_POSTMAN_TOKEN] => f295efef-bc6d-ef51-0cd1-551472935329
+    [HTTP_ACCEPT] => */*
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [SERVER_SIGNATURE] => <address>Apache/2.4.7 (Ubuntu) Server at cil-rest.localhost Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.7 (Ubuntu)
+    [SERVER_NAME] => cil-rest.localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => /var/www/html/mockserver
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/html/mockserver
+    [SERVER_ADMIN] => cil-service@example.com
+    [SCRIPT_FILENAME] => /var/www/html/mockserver/rest.php
+    [REMOTE_PORT] => 41672
+    [REDIRECT_QUERY_STRING] => request=getAllProfile&csrLoginName=harjeet
+    [REDIRECT_URL] => /rest/getAllProfile
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => request=getAllProfile&csrLoginName=harjeet
+    [REQUEST_URI] => /rest/getAllProfile?csrLoginName=harjeet
+    [SCRIPT_NAME] => /rest.php
+    [PHP_SELF] => /rest.php
+    [REQUEST_TIME_FLOAT] => 1460063071.656
+    [REQUEST_TIME] => 1460063071
+)
+
+2016/04/07 17:04:31 getAllProfile
+2016/04/07 17:04:31 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:04:31 Array
+(
+)
+
+2016/04/07 17:04:31 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:04:31 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:06:24 Mock Service Accessed
+2016/04/07 17:06:24 Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => cil-rest.localhost
+    [HTTP_CONNECTION] => keep-alive
+    [CONTENT_LENGTH] => 133
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_ORIGIN] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [CONTENT_TYPE] => application/json
+    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    [HTTP_POSTMAN_TOKEN] => dc29a529-61a6-b761-1df7-a6e60395de58
+    [HTTP_ACCEPT] => */*
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [SERVER_SIGNATURE] => <address>Apache/2.4.7 (Ubuntu) Server at cil-rest.localhost Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.7 (Ubuntu)
+    [SERVER_NAME] => cil-rest.localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => /var/www/html/mockserver
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/html/mockserver
+    [SERVER_ADMIN] => cil-service@example.com
+    [SCRIPT_FILENAME] => /var/www/html/mockserver/rest.php
+    [REMOTE_PORT] => 41678
+    [REDIRECT_QUERY_STRING] => request=getAllProfile&csrLoginName=harjeet
+    [REDIRECT_URL] => /rest/getAllProfile
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => request=getAllProfile&csrLoginName=harjeet
+    [REQUEST_URI] => /rest/getAllProfile?csrLoginName=harjeet
+    [SCRIPT_NAME] => /rest.php
+    [PHP_SELF] => /rest.php
+    [REQUEST_TIME_FLOAT] => 1460063184.671
+    [REQUEST_TIME] => 1460063184
+)
+
+2016/04/07 17:06:24 Array
+(
+    [0] => 
+    [1] => getAllProfile&csrLoginName=harjeet
+)
+
+2016/04/07 17:07:06 Mock Service Accessed
+2016/04/07 17:07:06 Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => cil-rest.localhost
+    [HTTP_CONNECTION] => keep-alive
+    [CONTENT_LENGTH] => 133
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_ORIGIN] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [CONTENT_TYPE] => application/json
+    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    [HTTP_POSTMAN_TOKEN] => 0bb41198-5b0b-9367-bc61-5affd3a984c4
+    [HTTP_ACCEPT] => */*
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [SERVER_SIGNATURE] => <address>Apache/2.4.7 (Ubuntu) Server at cil-rest.localhost Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.7 (Ubuntu)
+    [SERVER_NAME] => cil-rest.localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => /var/www/html/mockserver
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/html/mockserver
+    [SERVER_ADMIN] => cil-service@example.com
+    [SCRIPT_FILENAME] => /var/www/html/mockserver/rest.php
+    [REMOTE_PORT] => 41681
+    [REDIRECT_QUERY_STRING] => request=getAllProfile&csrLoginName=harjeet
+    [REDIRECT_URL] => /rest/getAllProfile
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => request=getAllProfile&csrLoginName=harjeet
+    [REQUEST_URI] => /rest/getAllProfile?csrLoginName=harjeet
+    [SCRIPT_NAME] => /rest.php
+    [PHP_SELF] => /rest.php
+    [REQUEST_TIME_FLOAT] => 1460063226.314
+    [REQUEST_TIME] => 1460063226
+)
+
+2016/04/07 17:07:06 Array
+(
+    [0] => 
+    [1] => getAllProfile&csrLoginName=harjeet
+)
+
+2016/04/07 17:24:26 Mock Service Accessed
+2016/04/07 17:24:26 Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => cil-rest.localhost
+    [HTTP_CONNECTION] => keep-alive
+    [CONTENT_LENGTH] => 133
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_ORIGIN] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [CONTENT_TYPE] => application/json
+    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    [HTTP_POSTMAN_TOKEN] => 3a18df7e-2f30-b4c8-ce14-b2edade2ab1e
+    [HTTP_ACCEPT] => */*
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [SERVER_SIGNATURE] => <address>Apache/2.4.7 (Ubuntu) Server at cil-rest.localhost Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.7 (Ubuntu)
+    [SERVER_NAME] => cil-rest.localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => /var/www/html/mockserver
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/html/mockserver
+    [SERVER_ADMIN] => cil-service@example.com
+    [SCRIPT_FILENAME] => /var/www/html/mockserver/rest.php
+    [REMOTE_PORT] => 41763
+    [REDIRECT_QUERY_STRING] => request=getAllProfile&csrLoginName=harjeet
+    [REDIRECT_URL] => /rest/getAllProfile
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => request=getAllProfile&csrLoginName=harjeet
+    [REQUEST_URI] => /rest/getAllProfile?csrLoginName=harjeet
+    [SCRIPT_NAME] => /rest.php
+    [PHP_SELF] => /rest.php
+    [REQUEST_TIME_FLOAT] => 1460064266.139
+    [REQUEST_TIME] => 1460064266
+)
+
+2016/04/07 17:24:26 Array
+(
+    [0] => 
+    [1] => getAllProfile&csrLoginName=harjeet
+)
+
+2016/04/07 17:24:36 Mock Service Accessed
+2016/04/07 17:24:36 Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => cil-rest.localhost
+    [HTTP_CONNECTION] => keep-alive
+    [CONTENT_LENGTH] => 133
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_ORIGIN] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [CONTENT_TYPE] => application/json
+    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    [HTTP_POSTMAN_TOKEN] => f5b91329-be74-c514-3677-b8a27c0477e4
+    [HTTP_ACCEPT] => */*
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [SERVER_SIGNATURE] => <address>Apache/2.4.7 (Ubuntu) Server at cil-rest.localhost Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.7 (Ubuntu)
+    [SERVER_NAME] => cil-rest.localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => /var/www/html/mockserver
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/html/mockserver
+    [SERVER_ADMIN] => cil-service@example.com
+    [SCRIPT_FILENAME] => /var/www/html/mockserver/rest.php
+    [REMOTE_PORT] => 41765
+    [REDIRECT_QUERY_STRING] => request=getAllProfile&csrLoginName=harjeet
+    [REDIRECT_URL] => /rest/getAllProfile
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => request=getAllProfile&csrLoginName=harjeet
+    [REQUEST_URI] => /rest/getAllProfile?csrLoginName=harjeet
+    [SCRIPT_NAME] => /rest.php
+    [PHP_SELF] => /rest.php
+    [REQUEST_TIME_FLOAT] => 1460064276.68
+    [REQUEST_TIME] => 1460064276
+)
+
+2016/04/07 17:24:36 Array
+(
+    [0] => 
+    [1] => getAllProfile&csrLoginName=harjeet
+)
+
+2016/04/07 17:24:58 Mock Service Accessed
+2016/04/07 17:24:58 Array
+(
+    [0] => 
+    [1] => getAllProfile&csrLoginName=harjeet
+)
+
+2016/04/07 17:25:09 Mock Service Accessed
+2016/04/07 17:25:09 Array
+(
+    [0] => 
+    [1] => getAllProfile&csrLoginName=harjeet
+)
+
+2016/04/07 17:25:46 Mock Service Accessed
+2016/04/07 17:25:46 getAllProfile&csrLoginName=harjeet
+2016/04/07 17:26:05 Mock Service Accessed
+2016/04/07 17:26:05 getAllProfile&csrLoginName=harjeet
+2016/04/07 17:26:05 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:26:05 Array
+(
+    [0] => csrLoginName=harjeet
+)
+
+2016/04/07 17:26:05 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:26:05 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:27:31 Mock Service Accessed
+2016/04/07 17:27:31 
+2016/04/07 17:27:31 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:27:31 Array
+(
+    [0] => csrLoginName=harjeet
+)
+
+2016/04/07 17:27:31 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:27:31 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:27:37 Mock Service Accessed
+2016/04/07 17:27:37 
+2016/04/07 17:27:37 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:27:37 Array
+(
+    [0] => csrLoginName=harjeet
+)
+
+2016/04/07 17:27:37 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:27:37 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:27:38 Mock Service Accessed
+2016/04/07 17:27:38 
+2016/04/07 17:27:38 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:27:38 Array
+(
+    [0] => csrLoginName=harjeet
+)
+
+2016/04/07 17:27:38 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:27:38 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:28:22 Mock Service Accessed
+2016/04/07 17:28:22 Array
+(
+    [0] => 
+    [1] => getAllProfile&csrLoginName=harjeet
+)
+
+2016/04/07 17:28:22 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:28:22 Array
+(
+    [0] => csrLoginName=harjeet
+)
+
+2016/04/07 17:28:22 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:28:22 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:28:47 Mock Service Accessed
+2016/04/07 17:28:47 
+2016/04/07 17:28:47 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:28:47 Array
+(
+    [0] => csrLoginName=harjeet
+)
+
+2016/04/07 17:28:47 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:28:47 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:29:06 Mock Service Accessed
+2016/04/07 17:29:06 Array
+(
+    [request] => getAllProfile
+    [csrLoginName] => harjeet
+)
+
+2016/04/07 17:29:06 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:29:06 Array
+(
+    [0] => csrLoginName=harjeet
+)
+
+2016/04/07 17:29:06 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:29:06 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:29:14 Mock Service Accessed
+2016/04/07 17:29:14 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:29:14 Array
+(
+    [0] => csrLoginName=harjeet
+)
+
+2016/04/07 17:29:14 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:29:14 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:29:27 Mock Service Accessed
+2016/04/07 17:29:27 request=getAllProfile&csrLoginName=harjeet
+2016/04/07 17:29:27 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:29:27 Array
+(
+    [0] => csrLoginName=harjeet
+)
+
+2016/04/07 17:29:27 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:29:27 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:29:40 Mock Service Accessed
+2016/04/07 17:29:40 request=getAllProfile&csrLoginName=harjeet
+2016/04/07 17:29:40 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:29:40 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:29:40 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:29:57 Mock Service Accessed
+2016/04/07 17:29:57 Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => cil-rest.localhost
+    [HTTP_CONNECTION] => keep-alive
+    [CONTENT_LENGTH] => 133
+    [HTTP_CACHE_CONTROL] => no-cache
+    [HTTP_ORIGIN] => chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+    [CONTENT_TYPE] => application/json
+    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    [HTTP_POSTMAN_TOKEN] => c2ef4950-8fa8-298d-d963-e8381651e188
+    [HTTP_ACCEPT] => */*
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [SERVER_SIGNATURE] => <address>Apache/2.4.7 (Ubuntu) Server at cil-rest.localhost Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.7 (Ubuntu)
+    [SERVER_NAME] => cil-rest.localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => /var/www/html/mockserver
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/html/mockserver
+    [SERVER_ADMIN] => cil-service@example.com
+    [SCRIPT_FILENAME] => /var/www/html/mockserver/rest.php
+    [REMOTE_PORT] => 41794
+    [REDIRECT_QUERY_STRING] => request=getAllProfile&csrLoginName=harjeet
+    [REDIRECT_URL] => /rest/getAllProfile
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => request=getAllProfile&csrLoginName=harjeet
+    [REQUEST_URI] => /rest/getAllProfile?csrLoginName=harjeet
+    [SCRIPT_NAME] => /rest.php
+    [PHP_SELF] => /rest.php
+    [REQUEST_TIME_FLOAT] => 1460064597.148
+    [REQUEST_TIME] => 1460064597
+)
+
+2016/04/07 17:29:57 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:29:57 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:29:57 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:30:11 Mock Service Accessed
+2016/04/07 17:30:11 request=getAllProfile&csrLoginName=harjeet
+2016/04/07 17:30:11 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:30:11 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:30:11 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:30:57 Mock Service Accessed
+2016/04/07 17:30:57 Array
+(
+    [request] => getAllProfile
+    [csrLoginName] => harjeet
+)
+
+2016/04/07 17:30:57 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:30:57 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:30:57 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/53c000ea123ddef155c85e8251362751
+2016/04/07 17:32:12 Mock Service Accessed
+2016/04/07 17:32:12 Array
+(
+    [request] => getAllProfile/verb
+    [csrLoginName] => harjeet
+)
+
+2016/04/07 17:33:18 Mock Service Accessed
+2016/04/07 17:33:18 Array
+(
+    [0] => verb
+)
+
+2016/04/07 17:33:18 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/08de9960ab9bf0d322cb92849fa6e4f9
+2016/04/07 17:33:18 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:33:18 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/08de9960ab9bf0d322cb92849fa6e4f9
+2016/04/07 17:33:58 Mock Service Accessed
+2016/04/07 17:33:58 Array
+(
+    [0] => arg1
+    [1] => arg2
+)
+
+2016/04/07 17:33:58 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/6deb1d2ce057b99d0dc07bdffefa6e96
+2016/04/07 17:33:58 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:33:58 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/6deb1d2ce057b99d0dc07bdffefa6e96
+2016/04/07 17:35:11 Mock Service Accessed
+2016/04/07 17:35:11 Array
+(
+    [0] => arg1
+    [1] => arg2
+)
+
+2016/04/07 17:35:22 Mock Service Accessed
+2016/04/07 17:35:22 Array
+(
+    [0] => arg1
+    [1] => arg2
+)
+
+2016/04/07 17:36:04 Mock Service Accessed
+2016/04/07 17:36:04 Array
+(
+    [0] => csrLoginName=harjeet
+)
+
+2016/04/07 17:36:22 Mock Service Accessed
+2016/04/07 17:36:22 Array
+(
+    [0] => csrLoginName=harjeet
+    [1] => asdf=123
+)
+
+2016/04/07 17:37:37 Mock Service Accessed
+2016/04/07 17:37:37 Array
+(
+    [csrLoginName] => harjeet
+    [asdf] => 123
+)
+
+2016/04/07 17:38:10 Mock Service Accessed
+2016/04/07 17:38:16 Mock Service Accessed
+2016/04/07 17:38:32 Mock Service Accessed
+2016/04/07 17:38:32 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/247dafa0b2de4455e2b35de777d3b86e
+2016/04/07 17:38:32 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:38:32 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/247dafa0b2de4455e2b35de777d3b86e
+2016/04/07 17:38:38 Mock Service Accessed
+2016/04/07 17:38:38 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:38:38 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:38:38 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:40:25 Mock Service Accessed
+2016/04/07 17:40:25 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:40:25 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:40:25 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:42:00 Mock Service Accessed
+2016/04/07 17:42:31 Mock Service Accessed
+2016/04/07 17:42:33 Mock Service Accessed
+2016/04/07 17:43:15 Mock Service Accessed
+2016/04/07 17:43:15 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:43:15 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:43:15 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:44:30 Mock Service Accessed
+2016/04/07 17:44:30 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:44:30 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:44:30 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:44:39 Mock Service Accessed
+2016/04/07 17:44:43 Mock Service Accessed
+2016/04/07 17:44:43 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:44:43 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:44:43 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:45:38 Mock Service Accessed
+2016/04/07 17:45:40 Mock Service Accessed
+2016/04/07 17:45:57 Mock Service Accessed
+2016/04/07 17:45:57 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:45:57 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:45:57 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:46:04 Mock Service Accessed
+2016/04/07 17:46:04 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/cced559e1399ec9612288d5d5eb23b24
+2016/04/07 17:46:04 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844261
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:46:04 RUNNING REQUEST NOT FOUND ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/cced559e1399ec9612288d5d5eb23b24
+2016/04/07 17:46:08 Mock Service Accessed
+2016/04/07 17:46:08 RUNNING LOOKING FOR path==testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:46:08 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:46:08 RUNNING REQUEST FOUND!!! ==/var/www/html/mockserver/testdata/cil-rest/getAllProfile/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 17:48:24 Mock Service Accessed
+2016/04/07 17:48:24 Requset URL : getAllProfile
+2016/04/07 17:48:24 Requset Body : {"callingSystem":"SUG","customerAccessKey":{"sourceSystemCustomerId":"38844268","sourceSystem":"DGT"},"csrLoginName":"harjeet.singh"}
+2016/04/07 17:51:13 Mock Service Accessed
+2016/04/07 17:52:18 Mock Service Accessed
+2016/04/07 17:53:28 Mock Service Accessed
+2016/04/07 17:53:29 Mock Service Accessed
+2016/04/07 17:55:30 Mock Service Accessed
+2016/04/07 17:55:30 Requset URL : cil-rest.localhost//rest/getAllProfile
+2016/04/07 17:55:30 Requset Body : {"callingSystem":"SUG","customerAccessKey":{"sourceSystemCustomerId":"38844268","sourceSystem":"DGT"},"csrLoginName":"harjeet.singh"}
+2016/04/07 17:56:00 Mock Service Accessed
+2016/04/07 17:56:00 Requset URL : cil-rest.localhost/rest/getAllProfile
+2016/04/07 17:56:00 Requset Body : {"callingSystem":"SUG","customerAccessKey":{"sourceSystemCustomerId":"38844268","sourceSystem":"DGT"},"csrLoginName":"harjeet.singh"}
+2016/04/07 17:56:13 Mock Service Accessed
+2016/04/07 17:56:13 Requset URL : cil-rest.localhost/rest/getAllProfile?asa=asas
+2016/04/07 17:56:13 Requset Body : {"callingSystem":"SUG","customerAccessKey":{"sourceSystemCustomerId":"38844268","sourceSystem":"DGT"},"csrLoginName":"harjeet.singh"}
+2016/04/07 17:56:50 Mock Service Accessed
+2016/04/07 17:58:07 Mock Service Accessed
+2016/04/07 17:58:07 Requset URL : cil-rest.localhost/rest/getAllProfile?asa=asas
+2016/04/07 17:58:07 Requset Body : {"callingSystem":"SUG","customerAccessKey":{"sourceSystemCustomerId":"38844268","sourceSystem":"DGT"},"csrLoginName":"harjeet.singh"}
+2016/04/07 17:58:15 Mock Service Accessed
+2016/04/07 17:58:15 Requset URL : cil-rest.localhost/rest/getAllProfile
+2016/04/07 17:58:15 Requset Body : {"callingSystem":"SUG","customerAccessKey":{"sourceSystemCustomerId":"38844268","sourceSystem":"DGT"},"csrLoginName":"harjeet.singh"}
+2016/04/07 17:59:31 Mock Service Accessed
+2016/04/07 17:59:31 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 17:59:31 Requset URL : cil-rest.localhost/rest/getAllProfile
+2016/04/07 17:59:31 Requset Body : {"callingSystem":"SUG","customerAccessKey":{"sourceSystemCustomerId":"38844268","sourceSystem":"DGT"},"csrLoginName":"harjeet.singh"}
+2016/04/07 18:00:05 Mock Service Accessed
+2016/04/07 18:00:05 Requset URL : cil-rest.localhost/rest/getAllProfile
+2016/04/07 18:00:05 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 18:00:05 Requset Body : {"callingSystem":"SUG","customerAccessKey":{"sourceSystemCustomerId":"38844268","sourceSystem":"DGT"},"csrLoginName":"harjeet.singh"}
+2016/04/07 18:00:37 Mock Service Accessed
+2016/04/07 18:00:37 Requset URL : cil-rest.localhost/rest/getAllProfile
+2016/04/07 18:00:37 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 18:02:06 Mock Service Accessed
+2016/04/07 18:02:06 Requset URL : cil-rest.localhost/rest/getAllProfile
+2016/04/07 18:02:06 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 18:02:38 Mock Service Accessed
+2016/04/07 18:02:38 Requset URL : cil-rest.localhost/rest/getAllProfile
+2016/04/07 18:02:38 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 18:03:09 Mock Service Accessed
+2016/04/07 18:03:09 Requset URL : cil-rest.localhost/rest/getAllProfile
+2016/04/07 18:03:09 Array
+(
+    [callingSystem] => SUG
+    [customerAccessKey] => Array
+        (
+            [sourceSystemCustomerId] => 38844268
+            [sourceSystem] => DGT
+        )
+
+    [csrLoginName] => harjeet.singh
+)
+
+2016/04/07 18:03:09 path to file : /var/www/html/mockserver/1712e293f0b5de4b3c6a9e6b04fcf70a
+2016/04/07 18:05:31 Mock Service Accessed
+2016/04/07 18:05:42 Mock Service Accessed
+2016/04/07 18:06:15 Mock Service Accessed
+2016/04/07 18:15:16 Mock Service Accessed
+2016/04/07 18:16:19 Mock Service Accessed
+2016/04/07 18:16:19 Requset URL : cil-rest.localhost/rest/getAllProfile
+2016/04/07 18:16:19 Requset Body : {"callingSystem":"SUG","customerAccessKey":{"sourceSystemCustomerId":"38844268","sourceSystem":"DGT"},"csrLoginName":"harjeet.singh"}
+2016/04/07 18:16:31 Mock Service Accessed
+2016/04/07 18:16:31 Requset URL : cil-rest.localhost/rest/getAllProfile
+2016/04/07 18:16:31 Requset Body : {"callingSystem":"SUG","customerAccessKey":{"sourceSystemCustomerId":"38844268","sourceSystem":"DGT"},"csrLoginName":"harjeet.singh"}
+2016/04/07 18:16:40 Mock Service Accessed
+2016/04/07 18:16:40 Requset URL : cil-rest.localhost/rest/getAllProfile
+2016/04/07 18:16:40 Requset Body : {"callingSystem":"SUG","customerAccessKey":{"sourceSystemCustomerId":"38844268","sourceSystem":"DGT"},"csrLoginName":"harjeet.singh1"}
+2016/04/07 18:16:55 Mock Service Accessed
+2016/04/07 18:16:55 Requset URL : cil-rest.localhost/rest/getAllProfile
+2016/04/07 18:16:55 Requset Body : {"callingSystem":"SUG","customerAccessKey":{"sourceSystemCustomerId":"38844268","sourceSystem":"DGT"},"csrLoginName":"harjeet.singh"}

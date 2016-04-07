@@ -7,10 +7,9 @@ require_once('lib/RestService.php');
 class CILService extends RestService{
     
     
-    public function __construct($request) {
-        parent::__construct($request);
+    public function __construct() {
+        parent::__construct();
         parent::$base = (rtrim(parent::$base, '/').'/cil-rest/');
-        
     }
     
     public function registerApiRest()
@@ -33,12 +32,29 @@ class CILService extends RestService{
         );
     }
 
-    public static function getAllProfile($arguments, $payload){	
-        return parent::getResponse('getAllProfile', $arguments, $payload);
+    public static function getAllProfile($url, $query_parameters, $payload){	
+        return self::getResponse('getAllProfile', $url, $query_parameters, $payload);
     }
     
-    public static function getInvoiceSummary($arguments, $payload){	
-        return parent::getResponse('getInvoiceSummary', $arguments, $payload);
+    public static function getInvoiceSummary($url, $query_parameters, $request_body){	
+        return self::getResponse($url, $query_parameters, $request_body);
+    }
+    
+    // Added parameter $cilUrl because some cil call have another element in their url endpoint after the function name
+    public static function authenticate($payload) {
+        if(!isset($payload['csrLoginName']))
+            return false;
+        else
+            return true;
+    }
+    
+    public static function getResponse($function, $url, $arguments = null, $payload = null) {
+        if(self::authenticate($payload)){
+            return parent::getResponse($function, $url, $arguments, $payload);
+        }
+        else{
+            return json_encode(array('error'=> 'Authentication failure'));
+        }
     }
 } 
 
