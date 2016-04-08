@@ -43,6 +43,10 @@ class CILService extends RestService{
                 'reqType' => 'POST',
                 'shortHelp' => 'get transaction history',
             ),
+            'getRateChart' => array(
+                'reqType' => 'POST',
+                'shortHelp' => 'get rate chart',
+            ),
         );
     }
 
@@ -72,6 +76,10 @@ class CILService extends RestService{
     
     public static function getPaymentProfile($url, $query_parameters, $request_body){	
         return self::getResponse('getPaymentProfile' ,$url, $query_parameters, $request_body);
+    }
+    
+    public static function getRateChart($url, $query_parameters, $request_body){	
+        return self::getResponse('getRateChart' ,$url, $query_parameters, $request_body);
     }
     
     

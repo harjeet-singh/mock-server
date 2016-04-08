@@ -109,12 +109,11 @@ abstract class RestService {
             
             $response = $this->_response($this->{$this->endpoint}($this->url, $this->args, $this->payload));
             
-            debug('Response Body : '. $response);
-            
             return $response;
         }
-        
         $error_response = array('error' => "No Endpoint : $this->endpoint");
+        debug('Response : '. json_encode($error_response));
+        
         return $this->_response(json_encode($error_response), 404);
     }
 
@@ -170,8 +169,22 @@ abstract class RestService {
         
         if(file_exists($fullPath))
         {
+            debug("PATH FOUND...");
             $response = file_get_contents($fullPath);
             $response = str_replace(':1,', ':"true",', $response);
+            //$response = str_replace("'", '"', $response);
+            
+            if(!empty($response)){
+                $ob = json_decode($response);
+                if($ob === null) {
+                    debug("{{INVALID RESPONSE}}");
+                }
+                else {
+                    debug("VALID RESPONSE");
+                }
+                
+            }
+            
             return $response;
         }
         else{

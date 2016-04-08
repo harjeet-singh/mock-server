@@ -6,7 +6,7 @@ ini_set('display_errors',0);
 date_default_timezone_set('America/New_York');
 
 require_once('lib/utils.php');  
-debug("Mock Service Accessed");
+debug("----------Mock Service Accessed-------------");
 //debug($_SERVER);
 // Requests from the same server don't have a HTTP_ORIGIN header
 if (!array_key_exists('HTTP_ORIGIN', $_SERVER)) {
