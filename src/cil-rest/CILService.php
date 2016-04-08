@@ -17,17 +17,31 @@ class CILService extends RestService{
         return array(
             'getAllProfile' => array(
                 'reqType' => 'POST',
-                'path' => array('getAllProfile'),
-                'pathVars' => array(''),
-                'method' => 'getAllProfile',
                 'shortHelp' => 'get all profiles',
             ),
             'getInvoiceSummary' => array(
                 'reqType' => 'POST',
-                'path' => array('getInvoiceSummary'),
-                'pathVars' => array(''),
-                'method' => 'getInvoiceSummary',
                 'shortHelp' => 'get invoice summary',
+            ),
+            'getSubscriptions' => array(
+                'reqType' => 'POST',
+                'shortHelp' => 'get subscriptions',
+            ),
+            'getSubscriptionDetails' => array(
+                'reqType' => 'POST',
+                'shortHelp' => 'get subscription details',
+            ),
+            'getPreferences' => array(
+                'reqType' => 'POST',
+                'shortHelp' => 'get subscription details',
+            ),
+            'getPaymentProfile' => array(
+                'reqType' => 'POST',
+                'shortHelp' => 'get payment profile',
+            ),
+            'getTransactionHistory' => array(
+                'reqType' => 'POST',
+                'shortHelp' => 'get transaction history',
             ),
         );
     }
@@ -37,15 +51,38 @@ class CILService extends RestService{
     }
     
     public static function getInvoiceSummary($url, $query_parameters, $request_body){	
-        return self::getResponse($url, $query_parameters, $request_body);
+        return self::getResponse('getInvoiceSummary' ,$url, $query_parameters, $request_body);
     }
+    
+    public static function getSubscriptions($url, $query_parameters, $request_body){	
+        return self::getResponse('getSubscriptions' ,$url, $query_parameters, $request_body);
+    }
+    
+    public static function getSubscriptionDetails($url, $query_parameters, $request_body){	
+        return self::getResponse('getSubscriptionDetails' ,$url, $query_parameters, $request_body);
+    }
+    
+    public static function getPreferences($url, $query_parameters, $request_body){	
+        return self::getResponse('getPreferences' ,$url, $query_parameters, $request_body);
+    }
+    
+    public static function getTransactionHistory($url, $query_parameters, $request_body){	
+        return self::getResponse('getTransactionHistory' ,$url, $query_parameters, $request_body);
+    }
+    
+    public static function getPaymentProfile($url, $query_parameters, $request_body){	
+        return self::getResponse('getPaymentProfile' ,$url, $query_parameters, $request_body);
+    }
+    
     
     // Added parameter $cilUrl because some cil call have another element in their url endpoint after the function name
     public static function authenticate($payload) {
-        if(!isset($payload['csrLoginName']))
+        return true;
+        if(!isset($payload['csrLoginName']) && (!isset ($payload['csrEmail']) || !isset ($payload['csrPassword']))){
             return false;
-        else
+        }else{
             return true;
+        }
     }
     
     public static function getResponse($function, $url, $arguments = null, $payload = null) {

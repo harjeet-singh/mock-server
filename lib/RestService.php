@@ -58,6 +58,7 @@ abstract class RestService {
         parse_str($_SERVER['QUERY_STRING'], $this->args);
         $this->verb = explode('/', rtrim($_REQUEST['request'], '/'));
         $this->endpoint = array_shift($this->args);
+        $this->endpoint = rtrim($this->endpoint, '/');
         $this->method = $_SERVER['REQUEST_METHOD'];
         
         if ($this->method == 'POST' && array_key_exists('HTTP_X_HTTP_METHOD', $_SERVER)) {
@@ -96,14 +97,21 @@ abstract class RestService {
     }
     
     public function serve() {
-
+            debug('Requset URL : '. $this->url);
+            debug('Request Body : '. json_encode($this->payload));
+            
         if (
                 $this->endpoint == 'getDocumentation' || (
                 method_exists($this, $this->endpoint) && 
                 array_key_exists($this->endpoint, $this->map) &&
                 strcasecmp($this->map[$this->endpoint]['reqType'], $this->method) == 0)
             ) {
-            return $this->_response($this->{$this->endpoint}($this->url, $this->args, $this->payload));
+            
+            $response = $this->_response($this->{$this->endpoint}($this->url, $this->args, $this->payload));
+            
+            debug('Response Body : '. $response);
+            
+            return $response;
         }
         
         $error_response = array('error' => "No Endpoint : $this->endpoint");
@@ -146,26 +154,28 @@ abstract class RestService {
         }
 
         $filePath=$function;
-        
+
         $input = array_merge($arguments, $payload);
         
+        $tomd5 = json_encode($input).$function;
+        
         //build MD5
-        $tomd5 = (!empty($input) ? json_encode($input) : '');
-
-        $md5=(!empty($tomd5) ? md5($tomd5) :'');
-
+        $md5 = (!empty($tomd5) ? md5($tomd5) : '');
+        debug('md5 : '.$md5);
         $all = self::$base.(!empty($md5) ? (rtrim($filePath, '/').'/').$md5 :(rtrim($filePath, '/')));
 
-        debug('Requset URL : '. $url);
         debug('Requset Body : '.  json_encode($payload));
+        debug('Requset Path : '.  $all);
         $fullPath = $_SERVER['DOCUMENT_ROOT'].'/'.$all;
         
         if(file_exists($fullPath))
         {
-            return file_get_contents($fullPath);
+            $response = file_get_contents($fullPath);
+            $response = str_replace(':1,', ':"true",', $response);
+            return $response;
         }
         else{
-            throw new Exception("No data found on server for [".$url."]". " [".$md5."]");
+            throw new Exception("No data found on server ". $fullPath, 404);
         }
     }
     

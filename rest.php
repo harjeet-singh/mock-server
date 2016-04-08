@@ -31,7 +31,8 @@ try {
     $API = new $class();
     echo $API->serve();
 } catch (Exception $e) {
-    echo json_encode(Array('error' => $e->getMessage()));
+    header("HTTP/1.1 " . $e->getCode() . " " );
+    echo json_encode(Array('error' => $e->getMessage(), 'status' => $e->getCode()));
 }
 
 
