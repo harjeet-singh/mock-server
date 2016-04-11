@@ -1,5 +1,6 @@
 <?php
-require_once 'lib/Logger.php';
+error_log(getcwd());
+require_once 'Logger.php';
 
 $log = new Logger("logs", "mockserver.log");
 global $log;

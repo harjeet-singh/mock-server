@@ -6,10 +6,16 @@ require_once('lib/RestService.php');
 
 class CILService extends RestService{
     
+    private $data_directory = 'cil-rest';
     
     public function __construct() {
+        
+        debug('CILService');
+        parent::$base_path = 'cil-rest/';
+        
+        parent::$mockedDataBasePath = (rtrim(parent::$mockedDataBasePath, '/').'/'.$this->data_directory.'/');
+        
         parent::__construct();
-        parent::$base = (rtrim(parent::$base, '/').'/cil-rest/');
     }
     
     public function registerApiRest()
@@ -49,41 +55,22 @@ class CILService extends RestService{
             ),
         );
     }
-
-    public static function getAllProfile($url, $query_parameters, $payload){	
-        return self::getResponse('getAllProfile', $url, $query_parameters, $payload);
+    
+    public static function getResponse($function, $url, $arguments = null, $payload = null) {
+        
+        unset($payload['callingSystem']);
+        unset($payload['csrEmail']);
+        unset($payload['csrPassword']);
+        unset($payload['csrEmail']);
+        debug($payload);
+        
+        if(self::authenticate($payload)){
+            return parent::getResponse($function, $url, $arguments, $payload);
+        }
+        else{
+            return json_encode(array('error'=> 'Authentication failure'));
+        }
     }
-    
-    public static function getInvoiceSummary($url, $query_parameters, $request_body){	
-        return self::getResponse('getInvoiceSummary' ,$url, $query_parameters, $request_body);
-    }
-    
-    public static function getSubscriptions($url, $query_parameters, $request_body){	
-        return self::getResponse('getSubscriptions' ,$url, $query_parameters, $request_body);
-    }
-    
-    public static function getSubscriptionDetails($url, $query_parameters, $request_body){	
-        return self::getResponse('getSubscriptionDetails' ,$url, $query_parameters, $request_body);
-    }
-    
-    public static function getPreferences($url, $query_parameters, $request_body){	
-        return self::getResponse('getPreferences' ,$url, $query_parameters, $request_body);
-    }
-    
-    public static function getTransactionHistory($url, $query_parameters, $request_body){	
-        return self::getResponse('getTransactionHistory' ,$url, $query_parameters, $request_body);
-    }
-    
-    public static function getPaymentProfile($url, $query_parameters, $request_body){	
-        return self::getResponse('getPaymentProfile' ,$url, $query_parameters, $request_body);
-    }
-    
-    public static function getRateChart($url, $query_parameters, $request_body){	
-        return self::getResponse('getRateChart' ,$url, $query_parameters, $request_body);
-    }
-    
-    
-    // Added parameter $cilUrl because some cil call have another element in their url endpoint after the function name
     public static function authenticate($payload) {
         return true;
         if(!isset($payload['csrLoginName']) && (!isset ($payload['csrEmail']) || !isset ($payload['csrPassword']))){
@@ -92,14 +79,7 @@ class CILService extends RestService{
             return true;
         }
     }
+
     
-    public static function getResponse($function, $url, $arguments = null, $payload = null) {
-        if(self::authenticate($payload)){
-            return parent::getResponse($function, $url, $arguments, $payload);
-        }
-        else{
-            return json_encode(array('error'=> 'Authentication failure'));
-        }
-    }
 } 
 

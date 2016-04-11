@@ -39,12 +39,13 @@ abstract class RestService {
      protected $payload = null;
 
 
-    protected static $base = 'testdata/';
+    protected static $mockedDataBasePath = 'mockserver/testdata/';
     
     protected $map = array();
     
     protected $url;
 
+    protected static $base_path = '';
 
     /**
      * Constructor: __construct
@@ -56,10 +57,13 @@ abstract class RestService {
         header("Content-Type: application/json");
 
         parse_str($_SERVER['QUERY_STRING'], $this->args);
-        $this->verb = explode('/', rtrim($_REQUEST['request'], '/'));
+        $this->args = explode('/', rtrim($this->args['request'], '/'));
         $this->endpoint = array_shift($this->args);
         $this->endpoint = rtrim($this->endpoint, '/');
         $this->method = $_SERVER['REQUEST_METHOD'];
+        
+        debug('endpoint '.$this->endpoint);
+        debug('args '.print_r($this->args,true));
         
         if ($this->method == 'POST' && array_key_exists('HTTP_X_HTTP_METHOD', $_SERVER)) {
             if ($_SERVER['HTTP_X_HTTP_METHOD'] == 'DELETE') {
@@ -102,12 +106,12 @@ abstract class RestService {
             
         if (
                 $this->endpoint == 'getDocumentation' || (
-                method_exists($this, $this->endpoint) && 
+                //method_exists($this, $this->endpoint) && 
                 array_key_exists($this->endpoint, $this->map) &&
                 strcasecmp($this->map[$this->endpoint]['reqType'], $this->method) == 0)
             ) {
             
-            $response = $this->_response($this->{$this->endpoint}($this->url, $this->args, $this->payload));
+            $response = $this->_response($this->getResponse($this->endpoint, $this->url, $this->args, $this->payload));
             
             return $response;
         }
@@ -161,12 +165,12 @@ abstract class RestService {
         //build MD5
         $md5 = (!empty($tomd5) ? md5($tomd5) : '');
         debug('md5 : '.$md5);
-        $all = self::$base.(!empty($md5) ? (rtrim($filePath, '/').'/').$md5 :(rtrim($filePath, '/')));
+        $all = self::$mockedDataBasePath.(!empty($md5) ? (rtrim($filePath, '/').'/').$md5 :(rtrim($filePath, '/')));
 
         debug('Requset Body : '.  json_encode($payload));
-        debug('Requset Path : '.  $all);
         $fullPath = $_SERVER['DOCUMENT_ROOT'].'/'.$all;
         
+        debug('Requset Path : '.  $fullPath);
         if(file_exists($fullPath))
         {
             debug("PATH FOUND...");
@@ -188,6 +192,7 @@ abstract class RestService {
             return $response;
         }
         else{
+            debug("PATH NOT FOUND...");
             throw new Exception("No data found on server ". $fullPath, 404);
         }
     }

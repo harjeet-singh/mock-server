@@ -68,7 +68,7 @@ class Logger {
     */
     public function write($message) 
     {
-        if(is_array($message)){
+        if(is_array($message) || is_object($message)){
             $message = print_r($message,true);
         }
         $message = date('Y/m/d H:i:s') ." ".  $message . "\n";

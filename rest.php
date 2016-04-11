@@ -14,13 +14,18 @@ if (!array_key_exists('HTTP_ORIGIN', $_SERVER)) {
 }
 try {
     
-    if(strpos($_SERVER['SERVER_NAME'], 'cil-rest') !== false){
+    if(strpos($_SERVER['REQUEST_URI'], 'cil-rest') !== false){
         require_once 'src/cil-rest/CILService.php';
         $class = 'CILService';
     }
     
-    if(strpos($_SERVER['SERVER_NAME'], 'cil-marketing') !== false){
+    if(strpos($_SERVER['REQUEST_URI'], 'cil-marketing') !== false){
         require_once 'src/cil-marketing/CILMarketingService.php';
+        $class = 'CILMarketingService';
+    }
+    
+    if(strpos($_SERVER['REQUEST_URI'], 'regi') !== false){
+        require_once 'src/cil-marketing/RegiService.php';
         $class = 'CILMarketingService';
     }
     
