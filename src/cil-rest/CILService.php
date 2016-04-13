@@ -6,15 +6,9 @@ require_once('lib/RestService.php');
 
 class CILService extends RestService{
     
-    private $data_directory = 'cil-rest';
+    private static $data_directory = 'cil-rest';
     
     public function __construct() {
-        
-        debug('CILService');
-        parent::$base_path = 'cil-rest/';
-        
-        parent::$mockedDataBasePath = (rtrim(parent::$mockedDataBasePath, '/').'/'.$this->data_directory.'/');
-        
         parent::__construct();
     }
     
@@ -53,24 +47,25 @@ class CILService extends RestService{
                 'reqType' => 'POST',
                 'shortHelp' => 'get rate chart',
             ),
+            'getCustomerSubscriptions' => array(
+                'reqType' => 'POST',
+                'shortHelp' => 'get customer subscriptions',
+            ),
         );
     }
-    
-    public static function getResponse($function, $url, $arguments = null, $payload = null) {
+  
+    public static function getResponse($function, $url, $args, $payload) {
         
-        unset($payload['callingSystem']);
-        unset($payload['csrEmail']);
-        unset($payload['csrPassword']);
-        unset($payload['csrEmail']);
-        debug($payload);
+        $filePath = self::getDataPath($function, $payload);
         
         if(self::authenticate($payload)){
-            return parent::getResponse($function, $url, $arguments, $payload);
+            return parent::getResponse($filePath, $payload);
         }
         else{
             return json_encode(array('error'=> 'Authentication failure'));
         }
     }
+    
     public static function authenticate($payload) {
         return true;
         if(!isset($payload['csrLoginName']) && (!isset ($payload['csrEmail']) || !isset ($payload['csrPassword']))){
@@ -79,7 +74,25 @@ class CILService extends RestService{
             return true;
         }
     }
+    
+    public static function getSourceSystemID($function, $payload){
+        switch ($function){
+            case 'getCustomerSubscriptions' :  
+                $source_system_id = $payload['csrCustomerSearchCriteria']['customerAccessKey']['sourceSystemCustomerId'];
+                break;
+            default :
+                $source_system_id = $payload['customerAccessKey']['sourceSystemCustomerId'];
+        }
 
+        return $source_system_id;
+    }
+    
+    public static function getDataPath($function, $payload){
+        
+        $source_system_id = self::getSourceSystemID($function, $payload);
+        
+        return self::$mockedDataBasePath.self::$data_directory. '/' . $function . '/' .$source_system_id;
+    }
     
 } 
 

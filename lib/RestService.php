@@ -41,6 +41,9 @@ abstract class RestService {
 
     protected static $mockedDataBasePath = 'mockserver/testdata/';
     
+    protected static $filePath;
+
+
     protected $map = array();
     
     protected $url;
@@ -61,9 +64,6 @@ abstract class RestService {
         $this->endpoint = array_shift($this->args);
         $this->endpoint = rtrim($this->endpoint, '/');
         $this->method = $_SERVER['REQUEST_METHOD'];
-        
-        debug('endpoint '.$this->endpoint);
-        debug('args '.print_r($this->args,true));
         
         if ($this->method == 'POST' && array_key_exists('HTTP_X_HTTP_METHOD', $_SERVER)) {
             if ($_SERVER['HTTP_X_HTTP_METHOD'] == 'DELETE') {
@@ -102,8 +102,9 @@ abstract class RestService {
     
     public function serve() {
             debug('Requset URL : '. $this->url);
+            debug('Endpoint '.$this->endpoint);
+            debug('Args '.json_encode($this->args));
             debug('Request Body : '. json_encode($this->payload));
-            
         if (
                 $this->endpoint == 'getDocumentation' || (
                 //method_exists($this, $this->endpoint) && 
@@ -148,29 +149,16 @@ abstract class RestService {
         return ($status[$code])?$status[$code]:$status[500]; 
     }
 
-    protected static function getResponse($function, $url, $arguments=null, $payload=null)
+    protected static function getResponse($filePath, $payload=null)
     {
         // validate input and log the user in
         //do find response:
-        if (!isset($url) ) {
+        if (!isset($filePath) ) {
                 throw new Exception("404, Wrong Request: no url or data on POST");
         }
-
-        $filePath=$function;
-
-        $input = array_merge($arguments, $payload);
         
-        $tomd5 = json_encode($input).$function;
-        
-        //build MD5
-        $md5 = (!empty($tomd5) ? md5($tomd5) : '');
-        debug('md5 : '.$md5);
-        $all = self::$mockedDataBasePath.(!empty($md5) ? (rtrim($filePath, '/').'/').$md5 :(rtrim($filePath, '/')));
-
-        debug('Requset Body : '.  json_encode($payload));
-        $fullPath = $_SERVER['DOCUMENT_ROOT'].'/'.$all;
-        
-        debug('Requset Path : '.  $fullPath);
+        $fullPath = $_SERVER['DOCUMENT_ROOT'].'/'.$filePath;
+        debug('Data Path : '.  $fullPath);
         if(file_exists($fullPath))
         {
             debug("PATH FOUND...");
